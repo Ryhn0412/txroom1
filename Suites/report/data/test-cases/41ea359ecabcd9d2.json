@@ -1,0 +1,177 @@
+{
+  "uid" : "41ea359ecabcd9d2",
+  "name" : "针对发放规则名称的测试2",
+  "fullName" : "sc.coupons.test_addcoupons.Test_addcoupons#test_couponname2",
+  "historyId" : "78fb9a01ee6396e6a971fab916c57ea2",
+  "time" : {
+    "start" : 1646217855945,
+    "stop" : 1646217861125,
+    "duration" : 5180
+  },
+  "description" : "\n        针对不填写发放规则的测试\n        检验能否提交成功\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    针对不填写发放规则的测试\n    检验能否提交成功\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addcoupons",
+    "time" : {
+      "start" : 1646217844945,
+      "stop" : 1646217855945,
+      "duration" : 11000
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        针对不填写发放规则的测试\n        检验能否提交成功\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "填写规则内容",
+      "time" : {
+        "start" : 1646217855945,
+        "stop" : 1646217860956,
+        "duration" : 5011
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "审查是否提交失败",
+      "time" : {
+        "start" : 1646217860956,
+        "stop" : 1646217861125,
+        "duration" : 169
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d8baf7ba18294c31",
+        "name" : "审查结果",
+        "source" : "d8baf7ba18294c31.png",
+        "type" : "image/png",
+        "size" : 74075
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addcoupons::0",
+    "time" : {
+      "start" : 1646217861125,
+      "stop" : 1646217865251,
+      "duration" : 4126
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试结束，关闭浏览器",
+      "time" : {
+        "start" : 1646217861125,
+        "stop" : 1646217865251,
+        "duration" : 4126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "story",
+    "value" : "新增发放规则"
+  }, {
+    "name" : "feature",
+    "value" : "发放规则模块"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=1, reruns_delay=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.coupons"
+  }, {
+    "name" : "suite",
+    "value" : "test_addcoupons"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_addcoupons"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "19192-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.coupons.test_addcoupons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1bc7ef7034b892d1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646128488259,
+        "stop" : 1646128493524,
+        "duration" : 5265
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=1, reruns_delay=1)" ]
+  },
+  "source" : "41ea359ecabcd9d2.json",
+  "parameterValues" : [ ]
+}

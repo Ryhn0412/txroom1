@@ -1,0 +1,226 @@
+{
+  "uid" : "510d046c6b769e86",
+  "name" : "编辑图片流程",
+  "fullName" : "sc.picture.test_picture.Test_picture#test_changepicture",
+  "historyId" : "6eb11b90d26ec0412a50e342268f1c3c",
+  "time" : {
+    "start" : 1646218535601,
+    "stop" : 1646218539120,
+    "duration" : 3519
+  },
+  "description" : "\n        编辑图片的测试用例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    编辑图片的测试用例\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_picture",
+    "time" : {
+      "start" : 1646218526013,
+      "stop" : 1646218535601,
+      "duration" : 9588
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        编辑图片的测试用例\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击图片编辑按钮",
+      "time" : {
+        "start" : 1646218535601,
+        "stop" : 1646218536680,
+        "duration" : 1079
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "修改图片名称",
+      "time" : {
+        "start" : 1646218536680,
+        "stop" : 1646218538042,
+        "duration" : 1362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "点击提交按钮",
+      "time" : {
+        "start" : 1646218538042,
+        "stop" : 1646218538088,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "审查修改结果",
+      "time" : {
+        "start" : 1646218538088,
+        "stop" : 1646218539120,
+        "duration" : 1032
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_picture::0",
+    "time" : {
+      "start" : 1646218539120,
+      "stop" : 1646218543707,
+      "duration" : 4587
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试结束，关闭浏览器",
+      "time" : {
+        "start" : 1646218539120,
+        "stop" : 1646218543707,
+        "duration" : 4587
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "story",
+    "value" : "编辑图片功能"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "图片库模块"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.picture"
+  }, {
+    "name" : "suite",
+    "value" : "test_picture"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_picture"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "19192-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.picture.test_picture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "200e638c8f9ccdc3",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]/input\"}\n  (Session info: MicrosoftEdge=98.0.1108.62)\nStacktrace:\nBacktrace:\n\tMicrosoft::Applications::Events::EventProperties::unpack [0x00007FF77B173382+22610]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B1C52+503778]\n\tOrdinal0 [0x00007FF77ABB0FA5+659365]\n\tOrdinal0 [0x00007FF77ABEBD52+900434]\n\tOrdinal0 [0x00007FF77ABEC028+901160]\n\tOrdinal0 [0x00007FF77AC1DBC7+1104839]\n\tOrdinal0 [0x00007FF77AC0701F+1011743]\n\tOrdinal0 [0x00007FF77AC1B2C4+1094340]\n\tOrdinal0 [0x00007FF77AC06DF3+1011187]\n\tOrdinal0 [0x00007FF77ABDDE97+843415]\n\tOrdinal0 [0x00007FF77ABDF368+848744]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD78BC8+848072]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6AB9D+39117]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6DE12+52034]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77ACB0906+28166]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B88E1+531569]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDDC4+553300]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDF55+553701]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD86650+904016]\n\tBaseThreadInitThunk [0x00007FFE34407034+20]\n\tRtlUserThreadStart [0x00007FFE34C02651+33]",
+      "time" : {
+        "start" : 1646129138220,
+        "stop" : 1646129150487,
+        "duration" : 12267
+      }
+    }, {
+      "uid" : "e801b695b1d2a06b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]/input\"}\n  (Session info: MicrosoftEdge=98.0.1108.62)\nStacktrace:\nBacktrace:\n\tMicrosoft::Applications::Events::EventProperties::unpack [0x00007FF77B173382+22610]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B1C52+503778]\n\tOrdinal0 [0x00007FF77ABB0FA5+659365]\n\tOrdinal0 [0x00007FF77ABEBD52+900434]\n\tOrdinal0 [0x00007FF77ABEC028+901160]\n\tOrdinal0 [0x00007FF77AC1DBC7+1104839]\n\tOrdinal0 [0x00007FF77AC0701F+1011743]\n\tOrdinal0 [0x00007FF77AC1B2C4+1094340]\n\tOrdinal0 [0x00007FF77AC06DF3+1011187]\n\tOrdinal0 [0x00007FF77ABDDE97+843415]\n\tOrdinal0 [0x00007FF77ABDF368+848744]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD78BC8+848072]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6AB9D+39117]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6DE12+52034]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77ACB0906+28166]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B88E1+531569]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDDC4+553300]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDF55+553701]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD86650+904016]\n\tBaseThreadInitThunk [0x00007FFE34407034+20]\n\tRtlUserThreadStart [0x00007FFE34C02651+33]",
+      "time" : {
+        "start" : 1646129108706,
+        "stop" : 1646129120940,
+        "duration" : 12234
+      }
+    }, {
+      "uid" : "7311e1635ac7c081",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]/input\"}\n  (Session info: MicrosoftEdge=98.0.1108.62)\nStacktrace:\nBacktrace:\n\tMicrosoft::Applications::Events::EventProperties::unpack [0x00007FF77B173382+22610]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B1C52+503778]\n\tOrdinal0 [0x00007FF77ABB0FA5+659365]\n\tOrdinal0 [0x00007FF77ABEBD52+900434]\n\tOrdinal0 [0x00007FF77ABEC028+901160]\n\tOrdinal0 [0x00007FF77AC1DBC7+1104839]\n\tOrdinal0 [0x00007FF77AC0701F+1011743]\n\tOrdinal0 [0x00007FF77AC1B2C4+1094340]\n\tOrdinal0 [0x00007FF77AC06DF3+1011187]\n\tOrdinal0 [0x00007FF77ABDDE97+843415]\n\tOrdinal0 [0x00007FF77ABDF368+848744]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD78BC8+848072]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6AB9D+39117]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6DE12+52034]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77ACB0906+28166]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B88E1+531569]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDDC4+553300]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDF55+553701]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD86650+904016]\n\tBaseThreadInitThunk [0x00007FFE34407034+20]\n\tRtlUserThreadStart [0x00007FFE34C02651+33]",
+      "time" : {
+        "start" : 1646129079940,
+        "stop" : 1646129092280,
+        "duration" : 12340
+      }
+    }, {
+      "uid" : "75ab0343edbc08d5",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]/input\"}\n  (Session info: MicrosoftEdge=98.0.1108.62)\nStacktrace:\nBacktrace:\n\tMicrosoft::Applications::Events::EventProperties::unpack [0x00007FF77B173382+22610]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B1C52+503778]\n\tOrdinal0 [0x00007FF77ABB0FA5+659365]\n\tOrdinal0 [0x00007FF77ABEBD52+900434]\n\tOrdinal0 [0x00007FF77ABEC028+901160]\n\tOrdinal0 [0x00007FF77AC1DBC7+1104839]\n\tOrdinal0 [0x00007FF77AC0701F+1011743]\n\tOrdinal0 [0x00007FF77AC1B2C4+1094340]\n\tOrdinal0 [0x00007FF77AC06DF3+1011187]\n\tOrdinal0 [0x00007FF77ABDDE97+843415]\n\tOrdinal0 [0x00007FF77ABDF368+848744]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD78BC8+848072]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6AB9D+39117]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6DE12+52034]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77ACB0906+28166]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B88E1+531569]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDDC4+553300]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDF55+553701]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD86650+904016]\n\tBaseThreadInitThunk [0x00007FFE34407034+20]\n\tRtlUserThreadStart [0x00007FFE34C02651+33]",
+      "time" : {
+        "start" : 1646129039244,
+        "stop" : 1646129051512,
+        "duration" : 12268
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "510d046c6b769e86.json",
+  "parameterValues" : [ ]
+}

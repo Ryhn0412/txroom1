@@ -1,0 +1,206 @@
+{
+  "uid" : "31917f108eaf4a79",
+  "name" : "新增规则的流程测试",
+  "fullName" : "sc.coupons.test_addcoupons.Test_addcoupons#test_addcoupon",
+  "historyId" : "aa99f107850a0686b9c22e3aee6e2e5c",
+  "time" : {
+    "start" : 1646128428314,
+    "stop" : 1646128433561,
+    "duration" : 5247
+  },
+  "description" : "\n        新增发放规则的流程测试\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    新增发放规则的流程测试\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addcoupons",
+    "time" : {
+      "start" : 1646128406312,
+      "stop" : 1646128428314,
+      "duration" : 22002
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        新增发放规则的流程测试\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击新增规则按钮",
+      "time" : {
+        "start" : 1646128428314,
+        "stop" : 1646128428342,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "填入基本信息",
+      "time" : {
+        "start" : 1646128428342,
+        "stop" : 1646128430363,
+        "duration" : 2021
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "填写规则组信息",
+      "time" : {
+        "start" : 1646128430363,
+        "stop" : 1646128431394,
+        "duration" : 1031
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "填写优惠券信息",
+      "time" : {
+        "start" : 1646128431394,
+        "stop" : 1646128432507,
+        "duration" : 1113
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "提交",
+      "time" : {
+        "start" : 1646128432507,
+        "stop" : 1646128433561,
+        "duration" : 1054
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addcoupons::0",
+    "time" : {
+      "start" : 1646128433561,
+      "stop" : 1646128437692,
+      "duration" : 4131
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试结束，关闭浏览器",
+      "time" : {
+        "start" : 1646128433561,
+        "stop" : 1646128437691,
+        "duration" : 4130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "发放规则模块"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "story",
+    "value" : "新增发放规则"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=1, reruns_delay=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.coupons"
+  }, {
+    "name" : "suite",
+    "value" : "test_addcoupons"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_addcoupons"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "16152-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.coupons.test_addcoupons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=1, reruns_delay=1)" ]
+  },
+  "source" : "31917f108eaf4a79.json",
+  "parameterValues" : [ ]
+}

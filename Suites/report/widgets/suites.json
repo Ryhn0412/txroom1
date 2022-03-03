@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "059104cc77ce3bda14ffa0086ead6ce9",
+    "name" : "sc.coupons",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 14,
+      "unknown" : 0,
+      "total" : 16
+    }
+  }, {
+    "uid" : "63491be95cc82549cc75fc0e77baf989",
+    "name" : "sc.goods",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 11
+    }
+  }, {
+    "uid" : "a70a999b16d3dc3afbb0c5be429ca7b7",
+    "name" : "sc.picture",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  } ]
+}

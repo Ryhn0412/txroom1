@@ -1,0 +1,10 @@
+-i https://pypi.douban.com/simple/
+selenium
+pytest-rerunfailures
+pytest-xdist
+allure-pytest
+pytest
+Pillow
+pytesseract
+ddddocr
+requests

@@ -1,0 +1,167 @@
+{
+  "uid" : "7311e1635ac7c081",
+  "name" : "编辑图片流程",
+  "fullName" : "sc.picture.test_picture.Test_picture#test_changepicture",
+  "historyId" : "6eb11b90d26ec0412a50e342268f1c3c",
+  "time" : {
+    "start" : 1646129079940,
+    "stop" : 1646129092280,
+    "duration" : 12340
+  },
+  "description" : "\n        编辑图片的测试用例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    编辑图片的测试用例\n    :return:\n</code></pre>\n",
+  "status" : "broken",
+  "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]/input\"}\n  (Session info: MicrosoftEdge=98.0.1108.62)\nStacktrace:\nBacktrace:\n\tMicrosoft::Applications::Events::EventProperties::unpack [0x00007FF77B173382+22610]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B1C52+503778]\n\tOrdinal0 [0x00007FF77ABB0FA5+659365]\n\tOrdinal0 [0x00007FF77ABEBD52+900434]\n\tOrdinal0 [0x00007FF77ABEC028+901160]\n\tOrdinal0 [0x00007FF77AC1DBC7+1104839]\n\tOrdinal0 [0x00007FF77AC0701F+1011743]\n\tOrdinal0 [0x00007FF77AC1B2C4+1094340]\n\tOrdinal0 [0x00007FF77AC06DF3+1011187]\n\tOrdinal0 [0x00007FF77ABDDE97+843415]\n\tOrdinal0 [0x00007FF77ABDF368+848744]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD78BC8+848072]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6AB9D+39117]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6DE12+52034]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77ACB0906+28166]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B88E1+531569]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDDC4+553300]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDF55+553701]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD86650+904016]\n\tBaseThreadInitThunk [0x00007FFE34407034+20]\n\tRtlUserThreadStart [0x00007FFE34C02651+33]",
+  "statusTrace" : "self = <Suites.sc.picture.test_picture.Test_picture object at 0x00000211FF33AA30>\n\n    @allure.epic('后台商城系统')\n    @allure.feature('图片库模块')\n    @allure.story(\"编辑图片功能\")\n    @allure.title('编辑图片流程')\n    @pytest.mark.flaky(reruns=3, reruns_delay=1)\n    @allure.severity(allure.severity_level.CRITICAL)\n    def test_changepicture(self):\n        '''\n        编辑图片的测试用例\n        :return:\n        '''\n        with allure.step('点击图片编辑按钮'):\n            time.sleep(2)\n            self.click('//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div[5]/div[2]/table/tbody/tr[1]/td/div/button[1]')\n        with allure.step('修改图片名称'):\n            self.click('/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]')\n>           self.input('/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]/input','自动化测试')\n\nsc\\picture\\test_picture.py:148: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\txhoutai\\webkeys1.py:39: in input\n    self.driver.find_element(By.XPATH,locator).send_keys(keys)\nC:\\Program Files\\Python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:1248: in find_element\n    return self.execute(Command.FIND_ELEMENT, {\nC:\\Program Files\\Python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:425: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x00000211FF336EB0>\nresponse = {'status': 404, 'value': '{\"value\":{\"error\":\"no such element\",\"message\":\"no such element: Unable to locate element: {\\...D86650+904016]\\\\n\\\\tBaseThreadInitThunk [0x00007FFE34407034+20]\\\\n\\\\tRtlUserThreadStart [0x00007FFE34C02651+33]\\\\n\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, str):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_SHADOW_ROOT:\n            exception_class = NoSuchShadowRootException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if not value:\n            value = response['value']\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None  # type: ignore[assignment]\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        st_value = value.get('stackTrace') or value.get('stacktrace')\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split('\\n')\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = self._value_or_default(frame, 'lineNumber', '')\n                        file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                        if line:\n                            file = \"%s:%s\" % (file, line)\n                        meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                        if 'className' in frame:\n                            meth = \"%s.%s\" % (frame['className'], meth)\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]/input\"}\nE         (Session info: MicrosoftEdge=98.0.1108.62)\nE       Stacktrace:\nE       Backtrace:\nE       \tMicrosoft::Applications::Events::EventProperties::unpack [0x00007FF77B173382+22610]\nE       \tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B1C52+503778]\nE       \tOrdinal0 [0x00007FF77ABB0FA5+659365]\nE       \tOrdinal0 [0x00007FF77ABEBD52+900434]\nE       \tOrdinal0 [0x00007FF77ABEC028+901160]\nE       \tOrdinal0 [0x00007FF77AC1DBC7+1104839]\nE       \tOrdinal0 [0x00007FF77AC0701F+1011743]\nE       \tOrdinal0 [0x00007FF77AC1B2C4+1094340]\nE       \tOrdinal0 [0x00007FF77AC06DF3+1011187]\nE       \tOrdinal0 [0x00007FF77ABDDE97+843415]\nE       \tOrdinal0 [0x00007FF77ABDF368+848744]\nE       \tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD78BC8+848072]\nE       \tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6AB9D+39117]\nE       \tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6DE12+52034]\nE       \tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77ACB0906+28166]\nE       \tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B88E1+531569]\nE       \tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDDC4+553300]\nE       \tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDF55+553701]\nE       \tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD86650+904016]\nE       \tBaseThreadInitThunk [0x00007FFE34407034+20]\nE       \tRtlUserThreadStart [0x00007FFE34C02651+33]\n\nC:\\Program Files\\Python38\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:247: NoSuchElementException",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_picture",
+    "time" : {
+      "start" : 1646129056913,
+      "stop" : 1646129079940,
+      "duration" : 23027
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        编辑图片的测试用例\n        :return:\n        ",
+    "status" : "broken",
+    "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]/input\"}\n  (Session info: MicrosoftEdge=98.0.1108.62)\nStacktrace:\nBacktrace:\n\tMicrosoft::Applications::Events::EventProperties::unpack [0x00007FF77B173382+22610]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B1C52+503778]\n\tOrdinal0 [0x00007FF77ABB0FA5+659365]\n\tOrdinal0 [0x00007FF77ABEBD52+900434]\n\tOrdinal0 [0x00007FF77ABEC028+901160]\n\tOrdinal0 [0x00007FF77AC1DBC7+1104839]\n\tOrdinal0 [0x00007FF77AC0701F+1011743]\n\tOrdinal0 [0x00007FF77AC1B2C4+1094340]\n\tOrdinal0 [0x00007FF77AC06DF3+1011187]\n\tOrdinal0 [0x00007FF77ABDDE97+843415]\n\tOrdinal0 [0x00007FF77ABDF368+848744]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD78BC8+848072]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6AB9D+39117]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6DE12+52034]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77ACB0906+28166]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B88E1+531569]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDDC4+553300]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDF55+553701]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD86650+904016]\n\tBaseThreadInitThunk [0x00007FFE34407034+20]\n\tRtlUserThreadStart [0x00007FFE34C02651+33]",
+    "statusTrace" : "self = <Suites.sc.picture.test_picture.Test_picture object at 0x00000211FF33AA30>\n\n    @allure.epic('后台商城系统')\n    @allure.feature('图片库模块')\n    @allure.story(\"编辑图片功能\")\n    @allure.title('编辑图片流程')\n    @pytest.mark.flaky(reruns=3, reruns_delay=1)\n    @allure.severity(allure.severity_level.CRITICAL)\n    def test_changepicture(self):\n        '''\n        编辑图片的测试用例\n        :return:\n        '''\n        with allure.step('点击图片编辑按钮'):\n            time.sleep(2)\n            self.click('//*[@id=\"app\"]/div/div[2]/section/div/div[3]/div[5]/div[2]/table/tbody/tr[1]/td/div/button[1]')\n        with allure.step('修改图片名称'):\n            self.click('/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]')\n>           self.input('/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]/input','自动化测试')\n\nsc\\picture\\test_picture.py:148: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\txhoutai\\webkeys1.py:39: in input\n    self.driver.find_element(By.XPATH,locator).send_keys(keys)\nC:\\Program Files\\Python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:1248: in find_element\n    return self.execute(Command.FIND_ELEMENT, {\nC:\\Program Files\\Python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:425: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = <selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x00000211FF336EB0>\nresponse = {'status': 404, 'value': '{\"value\":{\"error\":\"no such element\",\"message\":\"no such element: Unable to locate element: {\\...D86650+904016]\\\\n\\\\tBaseThreadInitThunk [0x00007FFE34407034+20]\\\\n\\\\tRtlUserThreadStart [0x00007FFE34C02651+33]\\\\n\"}}'}\n\n    def check_response(self, response: Dict[str, Any]) -> None:\n        \"\"\"\n        Checks that a JSON response from the WebDriver does not have an error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        \"\"\"\n        status = response.get('status', None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(\"message\", \"\")\n        screen: str = response.get(\"screen\", \"\")\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get('value', None)\n            if value_json and isinstance(value_json, str):\n                import json\n                try:\n                    value = json.loads(value_json)\n                    if len(value.keys()) == 1:\n                        value = value['value']\n                    status = value.get('error', None)\n                    if not status:\n                        status = value.get(\"status\", ErrorCode.UNKNOWN_ERROR)\n                        message = value.get(\"value\") or value.get(\"message\")\n                        if not isinstance(message, str):\n                            value = message\n                            message = message.get('message')\n                    else:\n                        message = value.get('message', None)\n                except ValueError:\n                    pass\n    \n        exception_class: Type[WebDriverException]\n        if status in ErrorCode.NO_SUCH_ELEMENT:\n            exception_class = NoSuchElementException\n        elif status in ErrorCode.NO_SUCH_FRAME:\n            exception_class = NoSuchFrameException\n        elif status in ErrorCode.NO_SUCH_SHADOW_ROOT:\n            exception_class = NoSuchShadowRootException\n        elif status in ErrorCode.NO_SUCH_WINDOW:\n            exception_class = NoSuchWindowException\n        elif status in ErrorCode.STALE_ELEMENT_REFERENCE:\n            exception_class = StaleElementReferenceException\n        elif status in ErrorCode.ELEMENT_NOT_VISIBLE:\n            exception_class = ElementNotVisibleException\n        elif status in ErrorCode.INVALID_ELEMENT_STATE:\n            exception_class = InvalidElementStateException\n        elif status in ErrorCode.INVALID_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR \\\n                or status in ErrorCode.INVALID_XPATH_SELECTOR_RETURN_TYPER:\n            exception_class = InvalidSelectorException\n        elif status in ErrorCode.ELEMENT_IS_NOT_SELECTABLE:\n            exception_class = ElementNotSelectableException\n        elif status in ErrorCode.ELEMENT_NOT_INTERACTABLE:\n            exception_class = ElementNotInteractableException\n        elif status in ErrorCode.INVALID_COOKIE_DOMAIN:\n            exception_class = InvalidCookieDomainException\n        elif status in ErrorCode.UNABLE_TO_SET_COOKIE:\n            exception_class = UnableToSetCookieException\n        elif status in ErrorCode.TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.SCRIPT_TIMEOUT:\n            exception_class = TimeoutException\n        elif status in ErrorCode.UNKNOWN_ERROR:\n            exception_class = WebDriverException\n        elif status in ErrorCode.UNEXPECTED_ALERT_OPEN:\n            exception_class = UnexpectedAlertPresentException\n        elif status in ErrorCode.NO_ALERT_OPEN:\n            exception_class = NoAlertPresentException\n        elif status in ErrorCode.IME_NOT_AVAILABLE:\n            exception_class = ImeNotAvailableException\n        elif status in ErrorCode.IME_ENGINE_ACTIVATION_FAILED:\n            exception_class = ImeActivationFailedException\n        elif status in ErrorCode.MOVE_TARGET_OUT_OF_BOUNDS:\n            exception_class = MoveTargetOutOfBoundsException\n        elif status in ErrorCode.JAVASCRIPT_ERROR:\n            exception_class = JavascriptException\n        elif status in ErrorCode.SESSION_NOT_CREATED:\n            exception_class = SessionNotCreatedException\n        elif status in ErrorCode.INVALID_ARGUMENT:\n            exception_class = InvalidArgumentException\n        elif status in ErrorCode.NO_SUCH_COOKIE:\n            exception_class = NoSuchCookieException\n        elif status in ErrorCode.UNABLE_TO_CAPTURE_SCREEN:\n            exception_class = ScreenshotException\n        elif status in ErrorCode.ELEMENT_CLICK_INTERCEPTED:\n            exception_class = ElementClickInterceptedException\n        elif status in ErrorCode.INSECURE_CERTIFICATE:\n            exception_class = InsecureCertificateException\n        elif status in ErrorCode.INVALID_COORDINATES:\n            exception_class = InvalidCoordinatesException\n        elif status in ErrorCode.INVALID_SESSION_ID:\n            exception_class = InvalidSessionIdException\n        elif status in ErrorCode.UNKNOWN_METHOD:\n            exception_class = UnknownMethodException\n        else:\n            exception_class = WebDriverException\n        if not value:\n            value = response['value']\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == \"\" and 'message' in value:\n            message = value['message']\n    \n        screen = None  # type: ignore[assignment]\n        if 'screen' in value:\n            screen = value['screen']\n    \n        stacktrace = None\n        st_value = value.get('stackTrace') or value.get('stacktrace')\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split('\\n')\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = self._value_or_default(frame, 'lineNumber', '')\n                        file = self._value_or_default(frame, 'fileName', '<anonymous>')\n                        if line:\n                            file = \"%s:%s\" % (file, line)\n                        meth = self._value_or_default(frame, 'methodName', '<anonymous>')\n                        if 'className' in frame:\n                            meth = \"%s.%s\" % (frame['className'], meth)\n                        msg = \"    at %s (%s)\"\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if 'data' in value:\n                alert_text = value['data'].get('text')\n            elif 'alert' in value:\n                alert_text = value['alert'].get('text')\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n>       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]/input\"}\nE         (Session info: MicrosoftEdge=98.0.1108.62)\nE       Stacktrace:\nE       Backtrace:\nE       \tMicrosoft::Applications::Events::EventProperties::unpack [0x00007FF77B173382+22610]\nE       \tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B1C52+503778]\nE       \tOrdinal0 [0x00007FF77ABB0FA5+659365]\nE       \tOrdinal0 [0x00007FF77ABEBD52+900434]\nE       \tOrdinal0 [0x00007FF77ABEC028+901160]\nE       \tOrdinal0 [0x00007FF77AC1DBC7+1104839]\nE       \tOrdinal0 [0x00007FF77AC0701F+1011743]\nE       \tOrdinal0 [0x00007FF77AC1B2C4+1094340]\nE       \tOrdinal0 [0x00007FF77AC06DF3+1011187]\nE       \tOrdinal0 [0x00007FF77ABDDE97+843415]\nE       \tOrdinal0 [0x00007FF77ABDF368+848744]\nE       \tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD78BC8+848072]\nE       \tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6AB9D+39117]\nE       \tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6DE12+52034]\nE       \tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77ACB0906+28166]\nE       \tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B88E1+531569]\nE       \tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDDC4+553300]\nE       \tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDF55+553701]\nE       \tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD86650+904016]\nE       \tBaseThreadInitThunk [0x00007FFE34407034+20]\nE       \tRtlUserThreadStart [0x00007FFE34C02651+33]\n\nC:\\Program Files\\Python38\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:247: NoSuchElementException",
+    "steps" : [ {
+      "name" : "点击图片编辑按钮",
+      "time" : {
+        "start" : 1646129079940,
+        "stop" : 1646129082135,
+        "duration" : 2195
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "修改图片名称",
+      "time" : {
+        "start" : 1646129082135,
+        "stop" : 1646129092279,
+        "duration" : 10144
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]/input\"}\n  (Session info: MicrosoftEdge=98.0.1108.62)\nStacktrace:\nBacktrace:\n\tMicrosoft::Applications::Events::EventProperties::unpack [0x00007FF77B173382+22610]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B1C52+503778]\n\tOrdinal0 [0x00007FF77ABB0FA5+659365]\n\tOrdinal0 [0x00007FF77ABEBD52+900434]\n\tOrdinal0 [0x00007FF77ABEC028+901160]\n\tOrdinal0 [0x00007FF77AC1DBC7+1104839]\n\tOrdinal0 [0x00007FF77AC0701F+1011743]\n\tOrdinal0 [0x00007FF77AC1B2C4+1094340]\n\tOrdinal0 [0x00007FF77AC06DF3+1011187]\n\tOrdinal0 [0x00007FF77ABDDE97+843415]\n\tOrdinal0 [0x00007FF77ABDF368+848744]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD78BC8+848072]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6AB9D+39117]\n\tMicrosoft::Applications::Events::EventProperty::EventProperty [0x00007FF77AE6DE12+52034]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77ACB0906+28166]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0B88E1+531569]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDDC4+553300]\n\tMicrosoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF77B0BDF55+553701]\n\tMicrosoft::Applications::Events::EventProperty::to_string [0x00007FF77AD86650+904016]\n\tBaseThreadInitThunk [0x00007FFE34407034+20]\n\tRtlUserThreadStart [0x00007FFE34C02651+33]\n\n",
+      "statusTrace" : "  File \"F:\\room\\tx\\Suites\\sc\\picture\\test_picture.py\", line 148, in test_changepicture\n    self.input('/html/body/div[2]/div/div[2]/form/div[2]/div/div[1]/div[1]/div/div[2]/input','自动化测试')\n  File \"F:\\room\\tx\\txhoutai\\webkeys1.py\", line 39, in input\n    self.driver.find_element(By.XPATH,locator).send_keys(keys)\n  File \"C:\\Program Files\\Python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 1248, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\n  File \"C:\\Program Files\\Python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 425, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Program Files\\Python38\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 247, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_picture::0",
+    "time" : {
+      "start" : 1646129092343,
+      "stop" : 1646129096633,
+      "duration" : 4290
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试结束，关闭浏览器",
+      "time" : {
+        "start" : 1646129092343,
+        "stop" : 1646129096633,
+        "duration" : 4290
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "编辑图片功能"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "图片库模块"
+  }, {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=3, reruns_delay=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.picture"
+  }, {
+    "name" : "suite",
+    "value" : "test_picture"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_picture"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "16152-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.picture.test_picture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=3, reruns_delay=1)" ]
+  },
+  "source" : "7311e1635ac7c081.json",
+  "parameterValues" : [ ]
+}

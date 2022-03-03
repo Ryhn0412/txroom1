@@ -1,0 +1,1020 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WIN-UJCKUL337GH",
+    "children" : [ {
+      "name" : "16152-MainThread",
+      "children" : [ {
+        "name" : "新增商品流程",
+        "uid" : "968f612e20bb1ad7",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128942304,
+          "stop" : 1646128947827,
+          "duration" : 5523
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进行中的发放规则能否编辑或者删除",
+        "uid" : "1ef2494c6ce60ba6",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646128830242,
+          "stop" : 1646128850284,
+          "duration" : 20042
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑图片流程",
+        "uid" : "200e638c8f9ccdc3",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646129138220,
+          "stop" : 1646129150487,
+          "duration" : 12267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对发放规则名称的测试1",
+        "uid" : "d6987139de75c73e",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128459584,
+          "stop" : 1646128472393,
+          "duration" : 12809
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对发放规则时间的测试",
+        "uid" : "1a55c4fd2426e04e",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128569836,
+          "stop" : 1646128581861,
+          "duration" : 12025
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑图片流程",
+        "uid" : "e801b695b1d2a06b",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646129108706,
+          "stop" : 1646129120940,
+          "duration" : 12234
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "多条规则组的流程测试",
+        "uid" : "448e57037fb6f616",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646128740642,
+          "stop" : 1646128762758,
+          "duration" : 22116
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增规则的流程测试",
+        "uid" : "31917f108eaf4a79",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128428314,
+          "stop" : 1646128433561,
+          "duration" : 5247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对消费金额输入框的测试",
+        "uid" : "bf2fefd2f14fe0c8",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128652214,
+          "stop" : 1646128657633,
+          "duration" : 5419
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'asd'" ]
+      }, {
+        "name" : "编辑规则的流程测试",
+        "uid" : "4ec426e4cc6d4cd8",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128902585,
+          "stop" : 1646128909009,
+          "duration" : 6424
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对消费金额输入框的测试",
+        "uid" : "d0b7538afb89cd3a",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128717042,
+          "stop" : 1646128723248,
+          "duration" : 6206
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'_+_+_/*'" ]
+      }, {
+        "name" : "全条件搜索查询图片",
+        "uid" : "f0770464d681e6d8",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128977655,
+          "stop" : 1646128979883,
+          "duration" : 2228
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_goods",
+        "uid" : "a12e6ceda6d1db5e",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646128947832,
+          "stop" : 1646128947832,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除规则的流程测试",
+        "uid" : "cd9164ec6d5caf15",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128924725,
+          "stop" : 1646128926823,
+          "duration" : 2098
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "查询规则的流程测试",
+        "uid" : "60bc2a398f1744b7",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128779150,
+          "stop" : 1646128781564,
+          "duration" : 2414
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "不同规则类型的流程2",
+        "uid" : "6e8d21f935767dc5",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646128620680,
+          "stop" : 1646128636316,
+          "duration" : 15636
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对消费金额输入框的测试",
+        "uid" : "bad9a72a74f12092",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128673111,
+          "stop" : 1646128678614,
+          "duration" : 5503
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'()_)'" ]
+      }, {
+        "name" : "通过图片分类查找图片",
+        "uid" : "382bf9fd289f6f6d",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646129012142,
+          "stop" : 1646129013714,
+          "duration" : 1572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对发放规则名称的测试2",
+        "uid" : "1bc7ef7034b892d1",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128488259,
+          "stop" : 1646128493524,
+          "duration" : 5265
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增图片流程",
+        "uid" : "fbb7509eb8a0b675",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128958886,
+          "stop" : 1646128962458,
+          "duration" : 3572
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对发放规则店铺的测试",
+        "uid" : "5acb2270d288fe4b",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128540496,
+          "stop" : 1646128553696,
+          "duration" : 13200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对发放规则内容的测试",
+        "uid" : "616cc1122d06fa72",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128509852,
+          "stop" : 1646128515165,
+          "duration" : 5313
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑图片流程",
+        "uid" : "75ab0343edbc08d5",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646129039244,
+          "stop" : 1646129051512,
+          "duration" : 12268
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑图片流程",
+        "uid" : "7311e1635ac7c081",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646129079940,
+          "stop" : 1646129092280,
+          "duration" : 12340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进行中的发放规则能否编辑或者删除",
+        "uid" : "6df86a5b27c12f9c",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646128866184,
+          "stop" : 1646128886223,
+          "duration" : 20039
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "通过图片名称查询图片",
+        "uid" : "e68c038c8b2fa36f",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128995249,
+          "stop" : 1646128996576,
+          "duration" : 1327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "不同规则类型的流程1",
+        "uid" : "337a3be4f0aa2787",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646128597823,
+          "stop" : 1646128604778,
+          "duration" : 6955
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除图片流程",
+        "uid" : "fe1770a37b1a9754",
+        "parentUid" : "a69ea02476347febd6de29faf26bc959",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646129166606,
+          "stop" : 1646129167896,
+          "duration" : 1290
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a69ea02476347febd6de29faf26bc959"
+    }, {
+      "name" : "19192-MainThread",
+      "children" : [ {
+        "name" : "针对发放规则店铺的测试",
+        "uid" : "88d908055d1c7153",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646217896461,
+          "stop" : 1646217909724,
+          "duration" : 13263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对商品数量的测试",
+        "uid" : "fa140072e6c86df7",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218327128,
+          "stop" : 1646218332849,
+          "duration" : 5721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "''" ]
+      }, {
+        "name" : "编辑规则的流程测试",
+        "uid" : "bf2f7a688d68957c",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218183339,
+          "stop" : 1646218188867,
+          "duration" : 5528
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对商品数量的测试",
+        "uid" : "d04aad1b237f3560",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218357323,
+          "stop" : 1646218363001,
+          "duration" : 5678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'-1'" ]
+      }, {
+        "name" : "新增图片流程",
+        "uid" : "896a7117e9f57e1f",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218472383,
+          "stop" : 1646218475270,
+          "duration" : 2887
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "新增商品流程",
+        "uid" : "d678d63333816b0e",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218228854,
+          "stop" : 1646218233532,
+          "duration" : 4678
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "不同规则类型的流程2",
+        "uid" : "641ae062f1170011",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646217972983,
+          "stop" : 1646217988528,
+          "duration" : 15545
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "进行中的发放规则能否编辑或者删除",
+        "uid" : "1fc04f8bb99a51f5",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218147630,
+          "stop" : 1646218168404,
+          "duration" : 20774
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 2,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对商品数量的测试",
+        "uid" : "17886dd3bd958257",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218377502,
+          "stop" : 1646218383266,
+          "duration" : 5764
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'0'" ]
+      }, {
+        "name" : "删除规则的流程测试",
+        "uid" : "a67d856c75741db9",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218202104,
+          "stop" : 1646218203984,
+          "duration" : 1880
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对消费金额输入框的测试",
+        "uid" : "cd703b4d838fdf7e",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218014221,
+          "stop" : 1646218019513,
+          "duration" : 5292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'asd'" ]
+      }, {
+        "name" : "删除商品的流程",
+        "uid" : "b9283e6685d19bf",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646218449675,
+          "stop" : 1646218459734,
+          "duration" : 10059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对发放规则名称的测试2",
+        "uid" : "41ea359ecabcd9d2",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646217855945,
+          "stop" : 1646217861125,
+          "duration" : 5180
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对消费金额输入框的测试",
+        "uid" : "d715972630a6b0e7",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218054646,
+          "stop" : 1646218060042,
+          "duration" : 5396
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'_+_+_/*'" ]
+      }, {
+        "name" : "不同规则类型的流程1",
+        "uid" : "3ac158992b86e219",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646217952150,
+          "stop" : 1646217959078,
+          "duration" : 6928
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对商品标题的测试",
+        "uid" : "693b858c52fe9fb2",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218268901,
+          "stop" : 1646218274547,
+          "duration" : 5646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "''" ]
+      }, {
+        "name" : "通过图片名称查询图片",
+        "uid" : "2442f4ef3c2cfe32",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218505472,
+          "stop" : 1646218506488,
+          "duration" : 1016
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对发放规则时间的测试",
+        "uid" : "3e9ba45410577c52",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646217925472,
+          "stop" : 1646217937308,
+          "duration" : 11836
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "通过图片分类查找图片",
+        "uid" : "8686b7351e6fc359",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218520727,
+          "stop" : 1646218521871,
+          "duration" : 1144
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "删除图片流程",
+        "uid" : "8860a417701f3b7",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218564053,
+          "stop" : 1646218564980,
+          "duration" : 927
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "全条件搜索查询图片",
+        "uid" : "710b932c8741f0e",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218489720,
+          "stop" : 1646218490941,
+          "duration" : 1221
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对商品标题的测试",
+        "uid" : "85430941cabc9573",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218248542,
+          "stop" : 1646218254329,
+          "duration" : 5787
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'自动化商品'" ]
+      }, {
+        "name" : "查询规则的流程测试",
+        "uid" : "f8f89c04ba692f8a",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218131851,
+          "stop" : 1646218133384,
+          "duration" : 1533
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对发放规则内容的测试",
+        "uid" : "a4df5980318b68e6",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646217875826,
+          "stop" : 1646217881125,
+          "duration" : 5299
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "编辑图片流程",
+        "uid" : "510d046c6b769e86",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218535601,
+          "stop" : 1646218539120,
+          "duration" : 3519
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 4,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对发放规则名称的测试1",
+        "uid" : "3ddc6177fa1d763d",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646217827725,
+          "stop" : 1646217840729,
+          "duration" : 13004
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对消费金额输入框的测试",
+        "uid" : "54fa2f2c56b07797",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218034594,
+          "stop" : 1646218039985,
+          "duration" : 5391
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'()_)'" ]
+      }, {
+        "name" : "新增规则的流程测试",
+        "uid" : "e63a2b8ced0298b2",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646217786937,
+          "stop" : 1646217792016,
+          "duration" : 5079
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对商品数量的测试",
+        "uid" : "58698d0d3dc03da0",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218288026,
+          "stop" : 1646218293733,
+          "duration" : 5707
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'asd'" ]
+      }, {
+        "name" : "多条规则组的流程测试",
+        "uid" : "5834703434577f59",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646218085892,
+          "stop" : 1646218107232,
+          "duration" : 21340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "针对商品数量的测试",
+        "uid" : "ec134456801978c4",
+        "parentUid" : "6b4c8d9a2750a945c870c2f3c1c5e06d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646218307778,
+          "stop" : 1646218313534,
+          "duration" : 5756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "'_+/*'" ]
+      } ],
+      "uid" : "6b4c8d9a2750a945c870c2f3c1c5e06d"
+    } ],
+    "uid" : "e620d5ad9e1aed082cd33c1165e532ad"
+  } ]
+}
