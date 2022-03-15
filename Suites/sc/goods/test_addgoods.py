@@ -6,7 +6,8 @@ import pytest
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 
-from txhoutai.selecet import select1
+from base.selecet import select1
+
 
 @allure.epic('后台商城系统')
 @allure.feature('商品模块')
@@ -98,8 +99,6 @@ class Test_addgoods(select1):
         with allure.step('点击提交按钮'):
             self.click('//*[@id="app"]/div/div[2]/section/form/div[4]/button/span')
 
-
-
     # @allure.epic('后台商城系统')
     # @allure.feature('商品模块')
     # @allure.story("新增商品功能")
@@ -166,9 +165,9 @@ class Test_addgoods(select1):
     @allure.feature('商品模块')
     @allure.story("新增商品功能")
     @allure.title('针对商品标题的测试')
-    @pytest.mark.parametrize('name',['自动化商品',''])
+    @pytest.mark.parametrize('name', ['自动化商品', ''])
     @allure.severity(allure.severity_level.NORMAL)
-    def test_goodstitle(self,name):
+    def test_goodstitle(self, name):
         '''
         针对商品标题的测试(前端未设定商品不可重复)
         :param name: 商品标题的不同输入
@@ -233,8 +232,8 @@ class Test_addgoods(select1):
     @allure.story("新增商品功能")
     @allure.title('针对商品价格的测试')
     @allure.severity(allure.severity_level.NORMAL)
-    @pytest.mark.parametrize('num',['asd','_+/*','','-1','0'])
-    def test_goodprice(self,num):
+    @pytest.mark.parametrize('num', ['asd', '_+/*', '', '-1', '0'])
+    def test_goodprice(self, num):
         '''
         针对价格输入进行测试
         :return:
@@ -334,13 +333,16 @@ class Test_addgoods(select1):
             # 点击数量自动补足按钮
             self.click(
                 '//*[@id="app"]/div/div[2]/section/form/div[2]/div[2]/div[2]/div[3]/table/tbody/tr/td[3]/div/div/div/div[1]/input')
-            self.input('//*[@id="app"]/div/div[2]/section/form/div[2]/div[2]/div[2]/div[3]/table/tbody/tr/td[3]/div/div/div/div[1]/input',num)
+            self.input(
+                '//*[@id="app"]/div/div[2]/section/form/div[2]/div[2]/div[2]/div[3]/table/tbody/tr/td[3]/div/div/div/div[1]/input',
+                num)
             # 选择上架时间
             self.click('//*[@id="app"]/div/div[2]/section/form/div[2]/div[2]/div[4]/div/div/div/input')
             self.click('/html/body/div[5]/div[1]/div[1]/ul/li[1]/span')
         with allure.step('填写商品详情'):
             # 填写购买须知
-            self.click('//*[@id="app"]/div/div[2]/section/form/div[3]/div[2]/div[2]/div[3]/table/tbody/tr[1]/td[2]/div/div/div/div/div/label/span[2]')
+            self.click(
+                '//*[@id="app"]/div/div[2]/section/form/div[3]/div[2]/div[2]/div[3]/table/tbody/tr[1]/td[2]/div/div/div/div/div/label/span[2]')
             self.click(
                 '//*[@id="app"]/div/div[2]/section/form/div[3]/div[2]/div[2]/div[3]/table/tbody/tr[1]/td[2]/div/div/div/div/div/label/span[1]/span')
             self.click(

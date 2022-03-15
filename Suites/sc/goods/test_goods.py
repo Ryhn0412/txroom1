@@ -4,13 +4,14 @@ import allure
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
 
-from txhoutai.selecet import select1
+from base.selecet import select1
 
 
 @allure.severity(allure.severity_level.BLOCKER)
 @allure.epic('后台商城系统')
 @allure.feature('商品模块')
 class Test_goods(select1):
+
     def setup_method(self):
         '''
         测试用例的初始化
@@ -47,6 +48,9 @@ class Test_goods(select1):
         element6 = self.driver.find_element(By.XPATH,
                                             '//*[@id="app"]/div/div[2]/section/div/div/div[4]/div[1]/div/ul/li[2]')
         ActionChains(self.driver).move_to_element(element6).click().perform()
+        time.sleep(2)
+        ActionChains(self.driver).click().perform()
+        time.sleep(2)
         with allure.step('点击删除按钮'):
             self.click(
                 '//*[@id="app"]/div/div[2]/section/div/div/div[4]/div[2]/div/div[3]/table/tbody/tr/td[7]/div/button[3]/span')

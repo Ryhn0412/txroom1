@@ -1,0 +1,28 @@
+[ {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:8110/",
+  "buildOrder" : 70,
+  "buildName" : "web自动化——糖心后台系统 #70",
+  "buildUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/70/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/70/allure"
+}, {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:8110/",
+  "buildOrder" : 70,
+  "buildName" : "web自动化——糖心后台系统 #70",
+  "buildUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/70/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/70/allure"
+}, {
+  "name" : "Jenkins",
+  "type" : "jenkins",
+  "url" : "http://localhost:8110/",
+  "buildOrder" : 70,
+  "buildName" : "web自动化——糖心后台系统 #70",
+  "buildUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/70/",
+  "reportName" : "AllureReport",
+  "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/70/allure"
+} ]

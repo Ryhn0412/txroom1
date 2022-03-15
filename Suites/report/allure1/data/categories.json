@@ -1,0 +1,114 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[5]/div/div[2]/div/div[3]/table/tbody/tr[1]/td[2]/div\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "children" : [ {
+        "name" : "进行中的发放规则能否编辑或者删除",
+        "uid" : "b706bef2c72c1bc1",
+        "parentUid" : "0113f465a54ba6c59c26a9157dedb830",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646977377992,
+          "stop" : 1646977399986,
+          "duration" : 21994
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0113f465a54ba6c59c26a9157dedb830"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/table/tbody/tr[1]/td[9]/div/button[1]/span\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "children" : [ {
+        "name" : "编辑规则的流程测试",
+        "uid" : "eebd6b59461fb555",
+        "parentUid" : "5ece4c43ab05cd5f4b0b04e5e1427dee",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646977456760,
+          "stop" : 1646977489912,
+          "duration" : 33152
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 7,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "5ece4c43ab05cd5f4b0b04e5e1427dee"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span>...</span> is not clickable at point (495, 529). Other element would receive the click: <li data-v-c44ae590=\"\" class=\"el-select-dropdown__item\">...</li>\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x005648CF+1263823]\n\tOrdinal0 [0x00562B10+1256208]\n\tOrdinal0 [0x0056076B+1247083]\n\tOrdinal0 [0x0055F559+1242457]\n\tOrdinal0 [0x00554FB3+1200051]\n\tOrdinal0 [0x00577B0C+1342220]\n\tOrdinal0 [0x00554984+1198468]\n\tOrdinal0 [0x00577C14+1342484]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "children" : [ {
+        "name" : "针对商品标题的测试",
+        "uid" : "8a114240ece5a8f3",
+        "parentUid" : "587d19c3650056e651ecb661135abdd3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646977580695,
+          "stop" : 1646977584668,
+          "duration" : 3973
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : true,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ "''" ]
+      } ],
+      "uid" : "587d19c3650056e651ecb661135abdd3"
+    }, {
+      "name" : "selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <span>...</span> is not clickable at point (494, 519). Other element would receive the click: <span>...</span>\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x005648CF+1263823]\n\tOrdinal0 [0x00562B10+1256208]\n\tOrdinal0 [0x0056076B+1247083]\n\tOrdinal0 [0x0055F559+1242457]\n\tOrdinal0 [0x00554FB3+1200051]\n\tOrdinal0 [0x00577B0C+1342220]\n\tOrdinal0 [0x00554984+1198468]\n\tOrdinal0 [0x00577C14+1342484]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "children" : [ {
+        "name" : "针对商品数量的测试",
+        "uid" : "3881b13bb0cf45d4",
+        "parentUid" : "7064020cead3681ac5dc03d39d41acc0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646977598316,
+          "stop" : 1646977602338,
+          "duration" : 4022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : true,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ "'asd'" ]
+      } ],
+      "uid" : "7064020cead3681ac5dc03d39d41acc0"
+    }, {
+      "name" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[2]/section/div/div/div[4]/div[2]/div/div[3]/table/tbody/tr/td[7]/div/button[3]/span\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "children" : [ {
+        "name" : "删除商品的流程",
+        "uid" : "9d93f7cee304f5c3",
+        "parentUid" : "4ae0f0d87907a423226dd5fe7ebeb700",
+        "status" : "broken",
+        "time" : {
+          "start" : 1646977758372,
+          "stop" : 1646977770733,
+          "duration" : 12361
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 3,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4ae0f0d87907a423226dd5fe7ebeb700"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

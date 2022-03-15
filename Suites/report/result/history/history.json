@@ -1,0 +1,1542 @@
+{
+  "0dc10e1e7e6af453831b94162fce535a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "40022859569ab116",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/40022859569ab116",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971256769,
+        "stop" : 1646971276392,
+        "duration" : 19623
+      }
+    }, {
+      "uid" : "261540361a0c9122",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/261540361a0c9122",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968554132,
+        "stop" : 1646968573845,
+        "duration" : 19713
+      }
+    }, {
+      "uid" : "3d84d7d709b37281",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/3d84d7d709b37281",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"el-tabs el-tabs--card el-tabs--top\"]/div[2]/div/form/div/div/div/div/input\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646965791530,
+        "stop" : 1646965803702,
+        "duration" : 12172
+      }
+    } ]
+  },
+  "2627fc88eb3060950b47f0be310c370f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "89010068e1d7ea20",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/89010068e1d7ea20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971546980,
+        "stop" : 1646971568199,
+        "duration" : 21219
+      }
+    }, {
+      "uid" : "5b9ad91eb5a3803a",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/5b9ad91eb5a3803a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968778255,
+        "stop" : 1646968799558,
+        "duration" : 21303
+      }
+    }, {
+      "uid" : "9f7bb81d370322fb",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/9f7bb81d370322fb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[2]/div[1]/button\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646966102787,
+        "stop" : 1646966116651,
+        "duration" : 13864
+      }
+    } ]
+  },
+  "d9c9d06182fd50e65f2ab547c1e8b945" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "544f19ef985a3750",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/544f19ef985a3750",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[5]/div/div[2]/div/div[3]/table/tbody/tr[1]/td[2]/div\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646971684497,
+        "stop" : 1646971706460,
+        "duration" : 21963
+      }
+    }, {
+      "uid" : "9c1164220c4ee119",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/9c1164220c4ee119",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[5]/div/div[2]/div/div[3]/table/tbody/tr[1]/td[2]/div\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646968910378,
+        "stop" : 1646968932444,
+        "duration" : 22066
+      }
+    }, {
+      "uid" : "97bc9fe302c0014f",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/97bc9fe302c0014f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"/html/body/div[5]/div/div[2]/div/div[3]/table/tbody/tr[1]/td[2]/div\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646966242253,
+        "stop" : 1646966264306,
+        "duration" : 22053
+      }
+    } ]
+  },
+  "7d03856cf6d17b0de0092b542c8c32bc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "632850f6216a7ff9",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/632850f6216a7ff9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971429201,
+        "stop" : 1646971436011,
+        "duration" : 6810
+      }
+    }, {
+      "uid" : "3a9bb720596d3b4",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/3a9bb720596d3b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968682074,
+        "stop" : 1646968688872,
+        "duration" : 6798
+      }
+    }, {
+      "uid" : "10229d1e5ff3c13b",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/10229d1e5ff3c13b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"el-tabs el-tabs--card el-tabs--top\"]/div[2]/div/form/div/div/div/div/input\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646965970244,
+        "stop" : 1646965982121,
+        "duration" : 11877
+      }
+    } ]
+  },
+  "6259ac4642a7a925880d23b865b014fb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "4c7b52d065192e2e",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/4c7b52d065192e2e",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[2]/section/div/div/div[4]/div[2]/div/div[3]/table/tbody/tr/td[7]/div/button[3]/span\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646972138399,
+        "stop" : 1646972150733,
+        "duration" : 12334
+      }
+    }, {
+      "uid" : "8b3a5be33f2cd86b",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/8b3a5be33f2cd86b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969319597,
+        "stop" : 1646969322007,
+        "duration" : 2410
+      }
+    }, {
+      "uid" : "fee9f3586d8ca932",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/fee9f3586d8ca932",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966667605,
+        "stop" : 1646966670033,
+        "duration" : 2428
+      }
+    } ]
+  },
+  "0025c573c73ce3fc5328dfaf0e7102cb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "be2543d72a497db4",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/be2543d72a497db4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971151967,
+        "stop" : 1646971177589,
+        "duration" : 25622
+      }
+    }, {
+      "uid" : "2050af472bf5eccf",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/2050af472bf5eccf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968447117,
+        "stop" : 1646968472613,
+        "duration" : 25496
+      }
+    }, {
+      "uid" : "2cf3e14d87a4781c",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/2cf3e14d87a4781c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646965676828,
+        "stop" : 1646965702407,
+        "duration" : 25579
+      }
+    } ]
+  },
+  "0071bd94720a738f34f8dafa9aeb9462" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "92448f9866727c05",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/92448f9866727c05",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972215694,
+        "stop" : 1646972216661,
+        "duration" : 967
+      }
+    }, {
+      "uid" : "5f51fb8b5a55bf3c",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/5f51fb8b5a55bf3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969414823,
+        "stop" : 1646969415770,
+        "duration" : 947
+      }
+    }, {
+      "uid" : "2581c2bbeed35519",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/2581c2bbeed35519",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966723565,
+        "stop" : 1646966724518,
+        "duration" : 953
+      }
+    } ]
+  },
+  "d1737da3083ef0454f458134b05e8c1d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "af57a05792161512",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/af57a05792161512",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972201201,
+        "stop" : 1646972202090,
+        "duration" : 889
+      }
+    }, {
+      "uid" : "aac6ba68dbe82dbe",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/aac6ba68dbe82dbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969401276,
+        "stop" : 1646969402155,
+        "duration" : 879
+      }
+    }, {
+      "uid" : "ac2776960dede529",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/ac2776960dede529",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966710034,
+        "stop" : 1646966710984,
+        "duration" : 950
+      }
+    } ]
+  },
+  "3e7d379f1ad10513e6be3e4082c5a802" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "436d101421f5750",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/436d101421f5750",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972069373,
+        "stop" : 1646972072222,
+        "duration" : 2849
+      }
+    }, {
+      "uid" : "9b278eb0c57b3995",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/9b278eb0c57b3995",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969291100,
+        "stop" : 1646969293920,
+        "duration" : 2820
+      }
+    }, {
+      "uid" : "fc9ef5116b7fda0f",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/fc9ef5116b7fda0f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966618336,
+        "stop" : 1646966621147,
+        "duration" : 2811
+      }
+    } ]
+  },
+  "4e050c25fc785a5df2ab4bfa89f17937" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "26f5dce0a3bedd8d",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/26f5dce0a3bedd8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971389160,
+        "stop" : 1646971395940,
+        "duration" : 6780
+      }
+    }, {
+      "uid" : "b9e622ae1865967",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/b9e622ae1865967",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968662841,
+        "stop" : 1646968669639,
+        "duration" : 6798
+      }
+    }, {
+      "uid" : "f1ff46a76390c822",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/f1ff46a76390c822",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"el-tabs el-tabs--card el-tabs--top\"]/div[2]/div/form/div/div/div/div/input\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646965945042,
+        "stop" : 1646965956864,
+        "duration" : 11822
+      }
+    } ]
+  },
+  "aa99f107850a0686b9c22e3aee6e2e5c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "1781f382eff563bd",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/1781f382eff563bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971013909,
+        "stop" : 1646971029246,
+        "duration" : 15337
+      }
+    }, {
+      "uid" : "7281f49259517866",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/7281f49259517866",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968331656,
+        "stop" : 1646968346987,
+        "duration" : 15331
+      }
+    }, {
+      "uid" : "f7cb370813f16c4e",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/f7cb370813f16c4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646965531367,
+        "stop" : 1646965546667,
+        "duration" : 15300
+      }
+    } ]
+  },
+  "fe24df1650022360a83bf5ba3faab777" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "67023d7922f5d41d",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/67023d7922f5d41d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971824967,
+        "stop" : 1646971851170,
+        "duration" : 26203
+      }
+    }, {
+      "uid" : "da51841a03cd4ec",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/da51841a03cd4ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969037687,
+        "stop" : 1646969063864,
+        "duration" : 26177
+      }
+    }, {
+      "uid" : "fd324b085178ccde",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/fd324b085178ccde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966379710,
+        "stop" : 1646966405925,
+        "duration" : 26215
+      }
+    } ]
+  },
+  "dc080ebf8099f1a0f2252b733435f547" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "f7d922e60f4570df",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/f7d922e60f4570df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971289726,
+        "stop" : 1646971301897,
+        "duration" : 12171
+      }
+    }, {
+      "uid" : "118bdd27f7e94d80",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/118bdd27f7e94d80",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968586669,
+        "stop" : 1646968598828,
+        "duration" : 12159
+      }
+    }, {
+      "uid" : "e279b9bde0c017cb",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/e279b9bde0c017cb",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"el-tabs el-tabs--card el-tabs--top\"]/div[2]/div/form/div/div/div/div/input\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646965838306,
+        "stop" : 1646965850477,
+        "duration" : 12171
+      }
+    } ]
+  },
+  "13451b929b954550b0687f93f92e1bbf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "20824a7d071cb670",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/20824a7d071cb670",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971882574,
+        "stop" : 1646971888306,
+        "duration" : 5732
+      }
+    }, {
+      "uid" : "2e2d14a310763ea9",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/2e2d14a310763ea9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969094751,
+        "stop" : 1646969100352,
+        "duration" : 5601
+      }
+    }, {
+      "uid" : "6d22da3bfac71c75",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/6d22da3bfac71c75",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966436366,
+        "stop" : 1646966442044,
+        "duration" : 5678
+      }
+    } ]
+  },
+  "9f40498708d57420893729fdcad8d904" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "1473cacb74734c5b",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/1473cacb74734c5b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971338660,
+        "stop" : 1646971350765,
+        "duration" : 12105
+      }
+    }, {
+      "uid" : "b16443fee1bfe5c5",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/b16443fee1bfe5c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968612228,
+        "stop" : 1646968624375,
+        "duration" : 12147
+      }
+    }, {
+      "uid" : "396e9c35b22701f9",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/396e9c35b22701f9",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"el-tabs el-tabs--card el-tabs--top\"]/div[2]/div/form/div/div/div/div/input\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646965874678,
+        "stop" : 1646965886798,
+        "duration" : 12120
+      }
+    } ]
+  },
+  "e1e0984354868a5a3b3d0d50e19409c5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "6f20fc3c1189234",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/6f20fc3c1189234",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971901179,
+        "stop" : 1646971906870,
+        "duration" : 5691
+      }
+    }, {
+      "uid" : "cae0604c23113ee3",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/cae0604c23113ee3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969113529,
+        "stop" : 1646969119078,
+        "duration" : 5549
+      }
+    }, {
+      "uid" : "ddb0538ace60dec8",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/ddb0538ace60dec8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966455233,
+        "stop" : 1646966460795,
+        "duration" : 5562
+      }
+    } ]
+  },
+  "6eb11b90d26ec0412a50e342268f1c3c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "e926d9d1cb0e858",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/e926d9d1cb0e858",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972228478,
+        "stop" : 1646972231947,
+        "duration" : 3469
+      }
+    }, {
+      "uid" : "c2b2d3d8539ca003",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/c2b2d3d8539ca003",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969428088,
+        "stop" : 1646969431602,
+        "duration" : 3514
+      }
+    }, {
+      "uid" : "4513973407229e1f",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/4513973407229e1f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966737213,
+        "stop" : 1646966740736,
+        "duration" : 3523
+      }
+    } ]
+  },
+  "b676bdd38dd8576092d3aa2e283b67d5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "5a9aa119219cb33d",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/5a9aa119219cb33d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971190759,
+        "stop" : 1646971217943,
+        "duration" : 27184
+      }
+    }, {
+      "uid" : "b5792e7b9bf68553",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/b5792e7b9bf68553",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968486336,
+        "stop" : 1646968513500,
+        "duration" : 27164
+      }
+    }, {
+      "uid" : "d7a16beb50ce496a",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/d7a16beb50ce496a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646965715854,
+        "stop" : 1646965745594,
+        "duration" : 29740
+      }
+    } ]
+  },
+  "78fb9a01ee6396e6a971fab916c57ea2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "eb672b1f636a7bfd",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/eb672b1f636a7bfd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971078773,
+        "stop" : 1646971096133,
+        "duration" : 17360
+      }
+    }, {
+      "uid" : "85c7f7ab78be3652",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/85c7f7ab78be3652",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968386402,
+        "stop" : 1646968403740,
+        "duration" : 17338
+      }
+    }, {
+      "uid" : "f4fb08271ad3583d",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/f4fb08271ad3583d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646965615953,
+        "stop" : 1646965633321,
+        "duration" : 17368
+      }
+    } ]
+  },
+  "54528465736e9a4f93ec4658d8f41a11" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "65bc9f838c00ed4e",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/65bc9f838c00ed4e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972177262,
+        "stop" : 1646972178396,
+        "duration" : 1134
+      }
+    }, {
+      "uid" : "ab8f82f38dcfa291",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/ab8f82f38dcfa291",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969387824,
+        "stop" : 1646969388940,
+        "duration" : 1116
+      }
+    }, {
+      "uid" : "f2f1744105a62dad",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/f2f1744105a62dad",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966696918,
+        "stop" : 1646966698078,
+        "duration" : 1160
+      }
+    } ]
+  },
+  "c645683a9a2ca64f60f19300c50d075c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "c4592b996d154592",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/c4592b996d154592",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971629801,
+        "stop" : 1646971634485,
+        "duration" : 4684
+      }
+    }, {
+      "uid" : "e876033423b163fa",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/e876033423b163fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968849370,
+        "stop" : 1646968854006,
+        "duration" : 4636
+      }
+    }, {
+      "uid" : "7c1357888ff63012",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/7c1357888ff63012",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966191422,
+        "stop" : 1646966196098,
+        "duration" : 4676
+      }
+    } ]
+  },
+  "d02c75b8e52a1c17afa55a69105d6976" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "56378d3e03f0c72c",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/56378d3e03f0c72c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972162164,
+        "stop" : 1646972164763,
+        "duration" : 2599
+      }
+    }, {
+      "uid" : "c60945bdd3f7390",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/c60945bdd3f7390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969361894,
+        "stop" : 1646969364522,
+        "duration" : 2628
+      }
+    }, {
+      "uid" : "4ca8dcfa80813228",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/4ca8dcfa80813228",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966681700,
+        "stop" : 1646966684324,
+        "duration" : 2624
+      }
+    } ]
+  },
+  "7b63ac292893d3152197812f6ec6dded" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "57fdd57d749416db",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/57fdd57d749416db",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971592941,
+        "stop" : 1646971617086,
+        "duration" : 24145
+      }
+    }, {
+      "uid" : "aa6361600065298b",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/aa6361600065298b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968812851,
+        "stop" : 1646968836941,
+        "duration" : 24090
+      }
+    }, {
+      "uid" : "b0f27468d5d5a643",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/b0f27468d5d5a643",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"pane-0\"]/form/div[1]/div/div/div[1]/input\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646966130040,
+        "stop" : 1646966145309,
+        "duration" : 15269
+      }
+    } ]
+  },
+  "27128991426b8c05200634c6fff6daac" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "ca465d63ddf4eec7",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/ca465d63ddf4eec7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972008023,
+        "stop" : 1646972013712,
+        "duration" : 5689
+      }
+    }, {
+      "uid" : "aa797ae6ddfe5e16",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/aa797ae6ddfe5e16",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969228354,
+        "stop" : 1646969234054,
+        "duration" : 5700
+      }
+    }, {
+      "uid" : "24ced3a455251dba",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/24ced3a455251dba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966568359,
+        "stop" : 1646966573995,
+        "duration" : 5636
+      }
+    } ]
+  },
+  "23b922c288ff2c5e9c9db8caa3d77f15" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "8fa4821e967ab956",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/8fa4821e967ab956",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972244199,
+        "stop" : 1646972245155,
+        "duration" : 956
+      }
+    }, {
+      "uid" : "b99ed1261fae3b46",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/b99ed1261fae3b46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969443905,
+        "stop" : 1646969444866,
+        "duration" : 961
+      }
+    }, {
+      "uid" : "c36251155c9073eb",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/c36251155c9073eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966753129,
+        "stop" : 1646966753945,
+        "duration" : 816
+      }
+    } ]
+  },
+  "f09398986f26b06cab9825117fd9f113" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "7f6d8697b3994557",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/7f6d8697b3994557",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971939557,
+        "stop" : 1646971945241,
+        "duration" : 5684
+      }
+    }, {
+      "uid" : "a2ea8848c660a68",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/a2ea8848c660a68",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969142470,
+        "stop" : 1646969148082,
+        "duration" : 5612
+      }
+    }, {
+      "uid" : "18843ad8af577ed2",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/18843ad8af577ed2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966472956,
+        "stop" : 1646966478578,
+        "duration" : 5622
+      }
+    } ]
+  },
+  "8ce1f3a45c87223f7d85ec02d604ec4a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "852a4db9fc8419ac",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/852a4db9fc8419ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971493534,
+        "stop" : 1646971502230,
+        "duration" : 8696
+      }
+    }, {
+      "uid" : "6a7e03ae648d1fa1",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/6a7e03ae648d1fa1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968724462,
+        "stop" : 1646968733229,
+        "duration" : 8767
+      }
+    }, {
+      "uid" : "d1fbb17821cac79d",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/d1fbb17821cac79d",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"el-tabs el-tabs--card el-tabs--top\"]/div[2]/div/form/div/div/div/div/input\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646966042378,
+        "stop" : 1646966054242,
+        "duration" : 11864
+      }
+    } ]
+  },
+  "faebcabcead69a70d94d0b511b465057" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 3,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "3230a339df31606f",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/3230a339df31606f",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/table/tbody/tr[1]/td[9]/div/button[1]/span\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646971758769,
+        "stop" : 1646971791206,
+        "duration" : 32437
+      }
+    }, {
+      "uid" : "3518d580e1bd69da",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/3518d580e1bd69da",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/table/tbody/tr[1]/td[9]/div/button[1]/span\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646968993204,
+        "stop" : 1646969025396,
+        "duration" : 32192
+      }
+    }, {
+      "uid" : "9b5d3de038a44954",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/9b5d3de038a44954",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id=\"app\"]/div/div[2]/section/div/div[2]/div[3]/table/tbody/tr[1]/td[9]/div/button[1]/span\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646966324181,
+        "stop" : 1646966356309,
+        "duration" : 32128
+      }
+    } ]
+  },
+  "a0d0c7bbadc252d923f7edb487ad0ff4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "fa57b78b63ac4c9e",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/fa57b78b63ac4c9e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972045396,
+        "stop" : 1646972046912,
+        "duration" : 1516
+      }
+    }, {
+      "uid" : "cd8e1119468ccbd1",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/cd8e1119468ccbd1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969276652,
+        "stop" : 1646969278138,
+        "duration" : 1486
+      }
+    }, {
+      "uid" : "1ca95e8160e81c2f",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/1ca95e8160e81c2f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966603743,
+        "stop" : 1646966605250,
+        "duration" : 1507
+      }
+    } ]
+  },
+  "6478764dcc3375cbc7c8948ada4f670f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "cc25dbd2af7c460f",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/cc25dbd2af7c460f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971988949,
+        "stop" : 1646971994532,
+        "duration" : 5583
+      }
+    }, {
+      "uid" : "a2b386dcf4e8d02f",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/a2b386dcf4e8d02f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969199947,
+        "stop" : 1646969205672,
+        "duration" : 5725
+      }
+    }, {
+      "uid" : "473c08881e75a929",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/473c08881e75a929",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966550811,
+        "stop" : 1646966556501,
+        "duration" : 5690
+      }
+    } ]
+  },
+  "4d15ed5bb1d109caecd1f49ce6daf657" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "33a497fc9a289f50",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/33a497fc9a289f50",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971865281,
+        "stop" : 1646971869906,
+        "duration" : 4625
+      }
+    }, {
+      "uid" : "a1d0567d8270a782",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/a1d0567d8270a782",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969077194,
+        "stop" : 1646969081819,
+        "duration" : 4625
+      }
+    }, {
+      "uid" : "ea1a5e933b0c4903",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/ea1a5e933b0c4903",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966418664,
+        "stop" : 1646966423313,
+        "duration" : 4649
+      }
+    } ]
+  },
+  "8d2d08c7ab4768c69dca8a67f56ce91f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "9601aa6413157ff1",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/9601aa6413157ff1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972084734,
+        "stop" : 1646972085506,
+        "duration" : 772
+      }
+    }, {
+      "uid" : "268068b5d753009b",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/268068b5d753009b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969307213,
+        "stop" : 1646969307948,
+        "duration" : 735
+      }
+    }, {
+      "uid" : "716e5200bf02c77a",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/716e5200bf02c77a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966653966,
+        "stop" : 1646966654714,
+        "duration" : 748
+      }
+    } ]
+  },
+  "11886f1781110e1288c090f333412490" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "bd740805f58a59b7",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/bd740805f58a59b7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971108483,
+        "stop" : 1646971124796,
+        "duration" : 16313
+      }
+    }, {
+      "uid" : "30714e2d07391a1e",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/30714e2d07391a1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968416838,
+        "stop" : 1646968433287,
+        "duration" : 16449
+      }
+    }, {
+      "uid" : "6634c76643c8df02",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/6634c76643c8df02",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646965645948,
+        "stop" : 1646965662349,
+        "duration" : 16401
+      }
+    } ]
+  },
+  "cc8dd45309f86de12ab9534b727f4b98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "d70ff15a31b09aa",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/d70ff15a31b09aa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972026116,
+        "stop" : 1646972031757,
+        "duration" : 5641
+      }
+    }, {
+      "uid" : "1816f2db9dd0cc65",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/1816f2db9dd0cc65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969257112,
+        "stop" : 1646969262824,
+        "duration" : 5712
+      }
+    }, {
+      "uid" : "6423e8141335055b",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/6423e8141335055b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966586545,
+        "stop" : 1646966592216,
+        "duration" : 5671
+      }
+    } ]
+  },
+  "783ae6cf99934191c7639616c57685d3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "9333d122b9d99c06",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/9333d122b9d99c06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971365072,
+        "stop" : 1646971377230,
+        "duration" : 12158
+      }
+    }, {
+      "uid" : "ecf6c29db52085a7",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/ecf6c29db52085a7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968637897,
+        "stop" : 1646968650103,
+        "duration" : 12206
+      }
+    }, {
+      "uid" : "aaa5d9211399c859",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/aaa5d9211399c859",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"el-tabs el-tabs--card el-tabs--top\"]/div[2]/div/form/div/div/div/div/input\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646965900140,
+        "stop" : 1646965912288,
+        "duration" : 12148
+      }
+    } ]
+  },
+  "bb55624f24244a5c74e8a84bceb24b5a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "ed2ac3144a2da4c0",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/ed2ac3144a2da4c0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971960097,
+        "stop" : 1646971965722,
+        "duration" : 5625
+      }
+    }, {
+      "uid" : "fd5460d9bf0729a5",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/fd5460d9bf0729a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969161105,
+        "stop" : 1646969166780,
+        "duration" : 5675
+      }
+    }, {
+      "uid" : "f6fc6d153381a4dd",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/f6fc6d153381a4dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966502108,
+        "stop" : 1646966507705,
+        "duration" : 5597
+      }
+    } ]
+  },
+  "56b03492f669e27bd7ec623ffe4d1aeb" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "de0543a156d9ec19",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/de0543a156d9ec19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971514836,
+        "stop" : 1646971523650,
+        "duration" : 8814
+      }
+    }, {
+      "uid" : "26ccf06b52ae996c",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/26ccf06b52ae996c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968757338,
+        "stop" : 1646968766143,
+        "duration" : 8805
+      }
+    }, {
+      "uid" : "cb4d9cd288f1fb79",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/cb4d9cd288f1fb79",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"el-tabs el-tabs--card el-tabs--top\"]/div[2]/div/form/div/div/div/div/input\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646966068238,
+        "stop" : 1646966080111,
+        "duration" : 11873
+      }
+    } ]
+  },
+  "f80b576f43c73e5bc4ede5b30424e17a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "fb19da52532a2503",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/fb19da52532a2503",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971471086,
+        "stop" : 1646971479841,
+        "duration" : 8755
+      }
+    }, {
+      "uid" : "3ffdf9b1f698c2d7",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/3ffdf9b1f698c2d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968702045,
+        "stop" : 1646968710792,
+        "duration" : 8747
+      }
+    }, {
+      "uid" : "1b54bd929b1fdb19",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/1b54bd929b1fdb19",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"el-tabs el-tabs--card el-tabs--top\"]/div[2]/div/form/div/div/div/div/input\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646966016560,
+        "stop" : 1646966028394,
+        "duration" : 11834
+      }
+    } ]
+  },
+  "edf80ab058e6e6ad78e721452e7e6e24" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "1df5f7a08f7446eb",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/1df5f7a08f7446eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971230280,
+        "stop" : 1646971244384,
+        "duration" : 14104
+      }
+    }, {
+      "uid" : "c8d3a6d1a4263897",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/c8d3a6d1a4263897",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968526486,
+        "stop" : 1646968540608,
+        "duration" : 14122
+      }
+    }, {
+      "uid" : "2b703f611fac357b",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/2b703f611fac357b",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"el-tabs el-tabs--card el-tabs--top\"]/div[2]/div/form/div/div/div/div/input\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646965766116,
+        "stop" : 1646965778280,
+        "duration" : 12164
+      }
+    } ]
+  },
+  "3781c946143a6eac8522aeb06c969449" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 3
+    },
+    "items" : [ {
+      "uid" : "161722ff073fe87c",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/161722ff073fe87c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971052202,
+        "stop" : 1646971066101,
+        "duration" : 13899
+      }
+    }, {
+      "uid" : "a50525f9fd30e05a",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/a50525f9fd30e05a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968359235,
+        "stop" : 1646968373089,
+        "duration" : 13854
+      }
+    }, {
+      "uid" : "714f7499a243b3c4",
+      "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/714f7499a243b3c4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@class=\"app-wrapper openSidebar\"]/div[2]/section/div[1]/div[4]/button[2]\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646965588218,
+        "stop" : 1646965601832,
+        "duration" : 13614
+      }
+    } ]
+  }
+}
