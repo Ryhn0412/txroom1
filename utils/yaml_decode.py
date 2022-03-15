@@ -1,6 +1,6 @@
 import os
 
-import yaml as pyyaml
+import yaml
 
 
 def get_yaml(yaml_file):
@@ -9,12 +9,9 @@ def get_yaml(yaml_file):
     :param yaml_file: yaml路径
     :return:
     '''
-    with open(yaml_file, "r", encoding="utf-8") as fp:
+    with open(yaml_file, encoding="utf-8", mode="r") as fp:
         # 以字符串的形势读取ymal中的数据
-        f = fp.read()
-        print(type(f))
-    d = pyyaml.unsafe_load(f)
-    print('读取到yaml文件数据')
+        d = yaml.safe_load(stream=fp)
     print(type(d))
     return d
 
