@@ -1,7 +1,7 @@
 import time
 
 import allure
-from selenium.webdriver import ActionChains
+from selenium.webdriver import ActionChains, Keys
 
 from base.selecet import select1
 
@@ -26,6 +26,12 @@ class buys_action(select1):
     button_dianpuid = '//div[@class="el-dialog__wrapper"]/div[1]/div[2]/div[1]/div[3]/table[1]/tbody[1]/tr[2]/td[1]/div[1]/label[1]/span[1]'
     # 提交店铺切换确定的按钮
     button_yep = '//div[@class="el-dialog__wrapper"]/div[1]/div[3]/div[1]/div[1]/div[1]/button[2]'
+    # 开始时间输入框
+    start_text = '//*[@id="app"]/div/div[2]/section/div/div[2]/div/div[3]/div/div/input[1]'
+    # 结束时间输入框
+    end_text = '//*[@id="app"]/div/div[2]/section/div/div[2]/div/div[3]/div/div/input[2]'
+    # 订单数量显示框
+    buys_text = '//*[@id="app"]/div/div[2]/section/div/div[4]/div/span[1]'
 
     def setup(self):
         # 初始化页面设置，跳转至糖心关爱的店铺的订单页面
@@ -69,6 +75,7 @@ class buys_action(select1):
         with allure.step('初始化页面'):
             self.setup()
         with allure.step('选择搜索条件为商品名称'):
+            a = self.getText(self.buys_text)
             self.click(self.select_idea)
             self.tagclick('span', idea_select)
         with allure.step('输入搜索内容'):
@@ -77,12 +84,43 @@ class buys_action(select1):
         with allure.step('点击查询按钮'):
             self.click(self.button_select)
             time.sleep(2)
+            b = self.getText(self.buys_text)
         with allure.step('审查查询结果'):
             self.catch_png()
+            assert a != b
             time.sleep(2)
         with allure.step('点击重置按钮并查询'):
             self.click(self.button_restart)
             self.click(self.button_select)
+        with allure.step('退出浏览器'):
+            time.sleep(2)
+            self.quit1()
+
+    def time_select(self, start_time, end_time):
+        '''
+        通过时间进行查找订单的页面动作
+        :return:
+        '''
+        with allure.step('初始化页面'):
+            self.setup()
+            time.sleep(2)
+        with allure.step('输入查找的订单的开始时间'):
+            a = self.getText(self.buys_text)
+            self.click(self.start_text)
+            self.input(self.start_text, start_time)
+            self.input(self.start_text, Keys.ENTER)
+        with allure.step('输入查找的订单的结束时间'):
+            self.click(self.end_text)
+            self.input(self.end_text, end_time)
+            self.input(self.end_text, Keys.ENTER)
+        with allure.step('进行查找'):
+            time.sleep(1)
+            self.click(self.button_select)
+        with allure.step('审查查找结果'):
+            time.sleep(1)
+            b = self.getText(self.buys_text)
+            assert a != b
+            self.catch_png()
         with allure.step('退出浏览器'):
             time.sleep(2)
             self.quit1()
