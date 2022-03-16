@@ -1,0 +1,146 @@
+{
+  "uid" : "1bfdb2c8392592d3",
+  "name" : "删除商品分类",
+  "fullName" : "sc.goods.test_goodkind.Test_goodkind#test_delete_goodkinds",
+  "historyId" : "8d2d08c7ab4768c69dca8a67f56ce91f",
+  "time" : {
+    "start" : 1646966653966,
+    "stop" : 1646966654714,
+    "duration" : 748
+  },
+  "description" : "\n        删除商品分类的流程测试\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    删除商品分类的流程测试\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_goodkind",
+    "time" : {
+      "start" : 1646966624258,
+      "stop" : 1646966653965,
+      "duration" : 29707
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        删除商品分类的流程测试\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击商品分类的编辑按钮",
+      "time" : {
+        "start" : 1646966653966,
+        "stop" : 1646966654632,
+        "duration" : 666
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击删除分类按钮",
+      "time" : {
+        "start" : 1646966654632,
+        "stop" : 1646966654714,
+        "duration" : 82
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_goodkind::0",
+    "time" : {
+      "start" : 1646966654715,
+      "stop" : 1646966657807,
+      "duration" : 3092
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "商品分类功能"
+  }, {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "feature",
+    "value" : "商品模块"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=1, reruns_delay=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.goods"
+  }, {
+    "name" : "suite",
+    "value" : "test_goodkind"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_goodkind"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "5840-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.goods.test_goodkind"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=1, reruns_delay=1)" ]
+  },
+  "source" : "1bfdb2c8392592d3.json",
+  "parameterValues" : [ ]
+}

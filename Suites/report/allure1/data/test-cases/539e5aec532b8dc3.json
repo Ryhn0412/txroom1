@@ -1,0 +1,191 @@
+{
+  "uid" : "539e5aec532b8dc3",
+  "name" : "新增商品流程",
+  "fullName" : "sc.goods.test_addgoods.Test_addgoods#test_addgood1",
+  "historyId" : "4d15ed5bb1d109caecd1f49ce6daf657",
+  "time" : {
+    "start" : 1646977543860,
+    "stop" : 1646977548445,
+    "duration" : 4585
+  },
+  "description" : "\n        检验添加商品的流程测试\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    检验添加商品的流程测试\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addgoods",
+    "time" : {
+      "start" : 1646977534355,
+      "stop" : 1646977543859,
+      "duration" : 9504
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        检验添加商品的流程测试\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击新增商品按钮",
+      "time" : {
+        "start" : 1646977543860,
+        "stop" : 1646977544212,
+        "duration" : 352
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "填入基本信息",
+      "time" : {
+        "start" : 1646977544212,
+        "stop" : 1646977547751,
+        "duration" : 3539
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "填写销售信息",
+      "time" : {
+        "start" : 1646977547751,
+        "stop" : 1646977548153,
+        "duration" : 402
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "填写商品详情",
+      "time" : {
+        "start" : 1646977548153,
+        "stop" : 1646977548383,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击提交按钮",
+      "time" : {
+        "start" : 1646977548383,
+        "stop" : 1646977548445,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addgoods::0",
+    "time" : {
+      "start" : 1646977548445,
+      "stop" : 1646977551529,
+      "duration" : 3084
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "新增商品功能"
+  }, {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "商品模块"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=1, reruns_delay=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.goods"
+  }, {
+    "name" : "suite",
+    "value" : "test_addgoods"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_addgoods"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "240-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.goods.test_addgoods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=1, reruns_delay=1)" ]
+  },
+  "source" : "539e5aec532b8dc3.json",
+  "parameterValues" : [ ]
+}

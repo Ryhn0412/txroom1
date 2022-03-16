@@ -1,15 +1,15 @@
 {
-  "total" : 3,
+  "total" : 4,
   "items" : [ {
-    "uid" : "63491be95cc82549cc75fc0e77baf989",
-    "name" : "sc.goods",
+    "uid" : "a804bf36f3ab853684dcc8b2d5c809c6",
+    "name" : "sc.buys",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 3,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 9,
+      "passed" : 5,
       "unknown" : 0,
-      "total" : 12
+      "total" : 6
     }
   }, {
     "uid" : "059104cc77ce3bda14ffa0086ead6ce9",
@@ -21,6 +21,17 @@
       "passed" : 20,
       "unknown" : 0,
       "total" : 22
+    }
+  }, {
+    "uid" : "63491be95cc82549cc75fc0e77baf989",
+    "name" : "sc.goods",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 12,
+      "unknown" : 0,
+      "total" : 12
     }
   }, {
     "uid" : "a70a999b16d3dc3afbb0c5be429ca7b7",

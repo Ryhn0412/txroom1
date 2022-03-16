@@ -1,0 +1,239 @@
+{
+  "uid" : "804b28fd98917d88",
+  "name" : "针对发放规则名称的测试2",
+  "fullName" : "sc.coupons.test_addcoupons.Test_addcoupons#test_couponname2",
+  "historyId" : "78fb9a01ee6396e6a971fab916c57ea2",
+  "time" : {
+    "start" : 1647393384133,
+    "stop" : 1647393401946,
+    "duration" : 17813
+  },
+  "description" : "\n        针对不填写发放规则的测试\n        检验能否提交成功\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    针对不填写发放规则的测试\n    检验能否提交成功\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addcoupons",
+    "time" : {
+      "start" : 1647393374850,
+      "stop" : 1647393384133,
+      "duration" : 9283
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        针对不填写发放规则的测试\n        检验能否提交成功\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "填写规则内容",
+      "time" : {
+        "start" : 1647393384133,
+        "stop" : 1647393401733,
+        "duration" : 17600
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "审查是否提交失败",
+      "time" : {
+        "start" : 1647393401733,
+        "stop" : 1647393401946,
+        "duration" : 213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5636098f1a8d32f3",
+        "name" : "审查结果",
+        "source" : "5636098f1a8d32f3.png",
+        "type" : "image/png",
+        "size" : 159882
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addcoupons::0",
+    "time" : {
+      "start" : 1647393401946,
+      "stop" : 1647393406051,
+      "duration" : 4105
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试结束，关闭浏览器",
+      "time" : {
+        "start" : 1647393401946,
+        "stop" : 1647393406051,
+        "duration" : 4105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "feature",
+    "value" : "发放规则模块"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "新增发放规则"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=1, reruns_delay=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.coupons"
+  }, {
+    "name" : "suite",
+    "value" : "test_addcoupons"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_addcoupons"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "3460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.coupons.test_addcoupons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3af5b3e6b5e8a865",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646976754942,
+        "stop" : 1646976772290,
+        "duration" : 17348
+      }
+    }, {
+      "uid" : "5c8f6c2318eed42b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971078773,
+        "stop" : 1646971096133,
+        "duration" : 17360
+      }
+    }, {
+      "uid" : "9bc38d0c66a4034a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968386402,
+        "stop" : 1646968403740,
+        "duration" : 17338
+      }
+    }, {
+      "uid" : "ece32a3cfb28e12b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646965615953,
+        "stop" : 1646965633321,
+        "duration" : 17368
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "eb672b1f636a7bfd",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/eb672b1f636a7bfd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646971078773,
+          "stop" : 1646971096133,
+          "duration" : 17360
+        }
+      }, {
+        "uid" : "85c7f7ab78be3652",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/85c7f7ab78be3652",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646968386402,
+          "stop" : 1646968403740,
+          "duration" : 17338
+        }
+      }, {
+        "uid" : "f4fb08271ad3583d",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/f4fb08271ad3583d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646965615953,
+          "stop" : 1646965633321,
+          "duration" : 17368
+        }
+      } ]
+    },
+    "tags" : [ "flaky(reruns=1, reruns_delay=1)" ]
+  },
+  "source" : "804b28fd98917d88.json",
+  "parameterValues" : [ ]
+}

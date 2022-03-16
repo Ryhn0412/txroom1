@@ -1,165 +1,183 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Mar 11 13:50:08 CST 2022","Fri Mar 11 13:50:09 CST 2022","1170","sc.picture","test_picture","Test_picture","","","全条件搜索查询图片","
-        全条件输入，进行查询图片的测试用例
-        :return:
-        "
-"broken","Fri Mar 11 13:44:16 CST 2022","Fri Mar 11 13:44:49 CST 2022","33152","sc.coupons","test_coupons","Test_coupons","","","编辑规则的流程测试","
+"passed","Wed Mar 16 09:28:20 CST 2022","Wed Mar 16 09:28:54 CST 2022","33532","sc.coupons","test_coupons","Test_coupons","","","编辑规则的流程测试","
         发放规则进行修改的测试
         :return:
         "
-"passed","Fri Mar 11 13:34:16 CST 2022","Fri Mar 11 13:34:43 CST 2022","27602","sc.coupons","test_addcoupons","Test_addcoupons","","","针对发放规则时间的测试",""
-"passed","Fri Mar 11 13:36:49 CST 2022","Fri Mar 11 13:37:01 CST 2022","12140","sc.coupons","test_addcoupons","Test_addcoupons","","","针对任务型计数类型的测试","
+"passed","Wed Mar 16 09:13:39 CST 2022","Wed Mar 16 09:14:03 CST 2022","24002","sc.buys","test_buys","Test_buys","","","查找订单功能1","
+        主要测试订单管理模块的查找功能实现
+        "
+"passed","Wed Mar 16 09:32:12 CST 2022","Wed Mar 16 09:32:18 CST 2022","5759","sc.goods","test_addgoods","Test_addgoods","","","针对商品数量的测试","
+        针对价格输入进行测试
+        :return:
+        "
+"passed","Wed Mar 16 09:31:34 CST 2022","Wed Mar 16 09:31:40 CST 2022","5726","sc.goods","test_addgoods","Test_addgoods","","","针对商品数量的测试","
+        针对价格输入进行测试
+        :return:
+        "
+"passed","Wed Mar 16 09:30:57 CST 2022","Wed Mar 16 09:31:03 CST 2022","5651","sc.goods","test_addgoods","Test_addgoods","","","针对商品标题的测试","
+        针对商品标题的测试(前端未设定商品不可重复)
+        :param name: 商品标题的不同输入
+        :return:
+        "
+"passed","Wed Mar 16 09:22:23 CST 2022","Wed Mar 16 09:22:29 CST 2022","6798","sc.coupons","test_addcoupons","Test_addcoupons","","","针对达标期限输入框的测试","
+        针对达标期限输入框的测试
+        :return:
+        "
+"passed","Wed Mar 16 09:29:58 CST 2022","Wed Mar 16 09:30:03 CST 2022","4675","sc.goods","test_addgoods","Test_addgoods","","","新增商品流程","
+        检验添加商品的流程测试
+        :return:
+        "
+"passed","Wed Mar 16 09:12:54 CST 2022","Wed Mar 16 09:13:15 CST 2022","21025","sc.buys","test_buys","Test_buys","","","查看订单功能","
+        主要测试查看订单功能的具体实现
+        "
+"passed","Wed Mar 16 09:19:39 CST 2022","Wed Mar 16 09:19:55 CST 2022","16354","sc.coupons","test_addcoupons","Test_addcoupons","","","不同规则类型的流程1",""
+"passed","Wed Mar 16 09:34:49 CST 2022","Wed Mar 16 09:34:50 CST 2022","1037","sc.picture","test_picture","Test_picture","","","通过图片名称查询图片","
+        通过搜索图片名称，进行查询图片的测试用例
+        :return:
+        "
+"passed","Wed Mar 16 09:31:16 CST 2022","Wed Mar 16 09:31:22 CST 2022","5651","sc.goods","test_addgoods","Test_addgoods","","","针对商品数量的测试","
+        针对价格输入进行测试
+        :return:
+        "
+"passed","Wed Mar 16 09:21:30 CST 2022","Wed Mar 16 09:21:42 CST 2022","12225","sc.coupons","test_addcoupons","Test_addcoupons","","","针对任务型计数类型的测试","
         对于达标次数输入框的检查
         :param name: 规则名称
         :param num: 达标次数
         :return:
         "
-"passed","Fri Mar 11 13:51:09 CST 2022","Fri Mar 11 13:51:12 CST 2022","3536","sc.picture","test_picture","Test_picture","","","编辑图片流程","
-        编辑图片的测试用例
+"passed","Wed Mar 16 09:24:29 CST 2022","Wed Mar 16 09:24:38 CST 2022","8836","sc.coupons","test_addcoupons","Test_addcoupons","","","针对消费金额输入框的测试","
+        针对消费金额输入框的测试
         :return:
         "
-"passed","Fri Mar 11 13:51:25 CST 2022","Fri Mar 11 13:51:26 CST 2022","1030","sc.picture","test_picture","Test_picture","","","删除图片流程","
-        删除图片的测试用例
+"passed","Wed Mar 16 09:20:10 CST 2022","Wed Mar 16 09:20:29 CST 2022","19809","sc.coupons","test_addcoupons","Test_addcoupons","","","不同规则类型的流程2",""
+"passed","Wed Mar 16 09:34:35 CST 2022","Wed Mar 16 09:34:36 CST 2022","1363","sc.picture","test_picture","Test_picture","","","全条件搜索查询图片","
+        全条件输入，进行查询图片的测试用例
         :return:
         "
-"passed","Fri Mar 11 13:46:00 CST 2022","Fri Mar 11 13:46:07 CST 2022","6077","sc.goods","test_addgoods","Test_addgoods","","","针对商品标题的测试","
+"passed","Wed Mar 16 09:30:28 CST 2022","Wed Mar 16 09:30:34 CST 2022","5721","sc.goods","test_addgoods","Test_addgoods","","","针对商品标题的测试","
         针对商品标题的测试(前端未设定商品不可重复)
         :param name: 商品标题的不同输入
         :return:
         "
-"passed","Fri Mar 11 13:47:29 CST 2022","Fri Mar 11 13:47:35 CST 2022","5673","sc.goods","test_addgoods","Test_addgoods","","","针对商品数量的测试","
+"passed","Wed Mar 16 09:15:28 CST 2022","Wed Mar 16 09:15:43 CST 2022","15500","sc.coupons","test_addcoupons","Test_addcoupons","","","新增规则的流程测试","
+        新增发放规则的流程测试
+        :return:
+        "
+"passed","Wed Mar 16 09:29:18 CST 2022","Wed Mar 16 09:29:44 CST 2022","26783","sc.coupons","test_coupons","Test_coupons","","","删除规则的流程测试","
+        删除发放规则的测试
+        :return:
+        "
+"passed","Wed Mar 16 09:23:04 CST 2022","Wed Mar 16 09:23:11 CST 2022","6921","sc.coupons","test_addcoupons","Test_addcoupons","","","针对达标期限输入框的测试","
+        针对达标期限输入框的测试
+        :return:
+        "
+"passed","Wed Mar 16 09:14:30 CST 2022","Wed Mar 16 09:14:54 CST 2022","24015","sc.buys","test_buys","Test_buys","","","查找订单功能2","
+        主要测试订单管理模块的通过时间查找功能实现
+        "
+"passed","Wed Mar 16 09:20:44 CST 2022","Wed Mar 16 09:20:56 CST 2022","12260","sc.coupons","test_addcoupons","Test_addcoupons","","","针对任务型计数类型的测试","
+        对于达标次数输入框的检查
+        :param name: 规则名称
+        :param num: 达标次数
+        :return:
+        "
+"passed","Wed Mar 16 09:34:20 CST 2022","Wed Mar 16 09:34:23 CST 2022","2825","sc.picture","test_picture","Test_picture","","","新增图片流程","
+        添加图片的测试用例
+        :return:
+        "
+"passed","Wed Mar 16 09:35:31 CST 2022","Wed Mar 16 09:35:32 CST 2022","954","sc.picture","test_picture","Test_picture","","","删除图片流程","
+        删除图片的测试用例
+        :return:
+        "
+"passed","Wed Mar 16 09:31:54 CST 2022","Wed Mar 16 09:31:59 CST 2022","5614","sc.goods","test_addgoods","Test_addgoods","","","针对商品数量的测试","
         针对价格输入进行测试
         :return:
         "
-"passed","Fri Mar 11 13:33:35 CST 2022","Fri Mar 11 13:34:00 CST 2022","25586","sc.coupons","test_addcoupons","Test_addcoupons","","","针对发放规则店铺的测试","
-        针对不选择发放规则店铺的测试
-        检验能否提交成功
+"passed","Wed Mar 16 09:33:25 CST 2022","Wed Mar 16 09:33:28 CST 2022","2787","sc.goods","test_goodkind","Test_goodkind","","","编辑商品分类","
+        编辑商品分类的流程测试
         :return:
         "
-"passed","Fri Mar 11 13:31:57 CST 2022","Fri Mar 11 13:32:11 CST 2022","13642","sc.coupons","test_addcoupons","Test_addcoupons","","","针对发放规则名称的测试1","
+"passed","Wed Mar 16 09:23:45 CST 2022","Wed Mar 16 09:23:53 CST 2022","8812","sc.coupons","test_addcoupons","Test_addcoupons","","","针对消费金额输入框的测试","
+        针对消费金额输入框的测试
+        :return:
+        "
+"passed","Wed Mar 16 09:34:04 CST 2022","Wed Mar 16 09:34:09 CST 2022","4447","sc.goods","test_goods","Test_goods","","","删除商品的流程","
+        删除商品的流程测试
+        :return:
+        "
+"passed","Wed Mar 16 09:32:52 CST 2022","Wed Mar 16 09:32:57 CST 2022","5752","sc.goods","test_addgoods","Test_addgoods","","","针对商品数量的测试","
+        针对价格输入进行测试
+        :return:
+        "
+"passed","Wed Mar 16 09:33:09 CST 2022","Wed Mar 16 09:33:11 CST 2022","1494","sc.goods","test_goodkind","Test_goodkind","","","新增商品分类","
+        新增商品分类的流程测试
+        :return:
+        "
+"failed","Wed Mar 16 09:14:03 CST 2022","Wed Mar 16 09:14:30 CST 2022","26445","sc.buys","test_buys","Test_buys","","","查找订单功能1","
+        主要测试订单管理模块的查找功能实现
+        "
+"passed","Wed Mar 16 09:35:16 CST 2022","Wed Mar 16 09:35:19 CST 2022","3521","sc.picture","test_picture","Test_picture","","","编辑图片流程","
+        编辑图片的测试用例
+        :return:
+        "
+"passed","Wed Mar 16 09:24:07 CST 2022","Wed Mar 16 09:24:16 CST 2022","8789","sc.coupons","test_addcoupons","Test_addcoupons","","","针对消费金额输入框的测试","
+        针对消费金额输入框的测试
+        :return:
+        "
+"passed","Wed Mar 16 09:14:54 CST 2022","Wed Mar 16 09:15:18 CST 2022","24416","sc.buys","test_buys","Test_buys","","","查找订单功能2","
+        主要测试订单管理模块的通过时间查找功能实现
+        "
+"passed","Wed Mar 16 09:13:15 CST 2022","Wed Mar 16 09:13:39 CST 2022","24243","sc.buys","test_buys","Test_buys","","","查找订单功能1","
+        主要测试订单管理模块的查找功能实现
+        "
+"passed","Wed Mar 16 09:15:56 CST 2022","Wed Mar 16 09:16:10 CST 2022","14233","sc.coupons","test_addcoupons","Test_addcoupons","","","针对发放规则名称的测试1","
         针对规则名称的测试
         检验是否会重复
         :return:
         "
-"passed","Fri Mar 11 13:32:34 CST 2022","Fri Mar 11 13:32:52 CST 2022","17348","sc.coupons","test_addcoupons","Test_addcoupons","","","针对发放规则名称的测试2","
+"passed","Wed Mar 16 09:21:56 CST 2022","Wed Mar 16 09:22:09 CST 2022","12325","sc.coupons","test_addcoupons","Test_addcoupons","","","针对任务型计数类型的测试","
+        对于达标次数输入框的检查
+        :param name: 规则名称
+        :param num: 达标次数
+        :return:
+        "
+"broken","Wed Mar 16 09:25:20 CST 2022","Wed Mar 16 09:25:48 CST 2022","28130","sc.coupons","test_addcoupons","Test_addcoupons","","","多条规则组的流程测试","
+        检测多条规组的流程测试(前端bug尚未改正)
+        :return:
+        "
+"passed","Wed Mar 16 09:33:51 CST 2022","Wed Mar 16 09:33:52 CST 2022","786","sc.goods","test_goodkind","Test_goodkind","","","删除商品分类","
+        删除商品分类的流程测试
+        :return:
+        "
+"passed","Wed Mar 16 09:16:24 CST 2022","Wed Mar 16 09:16:41 CST 2022","17813","sc.coupons","test_addcoupons","Test_addcoupons","","","针对发放规则名称的测试2","
         针对不填写发放规则的测试
         检验能否提交成功
         :return:
         "
-"broken","Fri Mar 11 13:46:38 CST 2022","Fri Mar 11 13:46:42 CST 2022","4022","sc.goods","test_addgoods","Test_addgoods","","","针对商品数量的测试","
-        针对价格输入进行测试
-        :return:
-        "
-"passed","Fri Mar 11 13:50:56 CST 2022","Fri Mar 11 13:50:57 CST 2022","976","sc.picture","test_picture","Test_picture","","","通过图片分类查找图片","
+"passed","Wed Mar 16 09:35:03 CST 2022","Wed Mar 16 09:35:04 CST 2022","1047","sc.picture","test_picture","Test_picture","","","通过图片分类查找图片","
         通过图片分类，进行查询图片的测试用例
         :return:
         "
-"passed","Fri Mar 11 13:45:43 CST 2022","Fri Mar 11 13:45:48 CST 2022","4585","sc.goods","test_addgoods","Test_addgoods","","","新增商品流程","
-        检验添加商品的流程测试
-        :return:
-        "
-"passed","Fri Mar 11 13:42:06 CST 2022","Fri Mar 11 13:42:11 CST 2022","4769","sc.coupons","test_coupons","Test_coupons","","","查询规则的流程测试","
-        查询发放规则的测试
-        查询条件：测试（名称）糖心关爱（店铺）进行中（状态）当前时间-两百年后（发放时间）
-        :return:
-        "
-"passed","Fri Mar 11 13:34:56 CST 2022","Fri Mar 11 13:35:10 CST 2022","14068","sc.coupons","test_addcoupons","Test_addcoupons","","","不同规则类型的流程1",""
-"passed","Fri Mar 11 13:39:34 CST 2022","Fri Mar 11 13:39:43 CST 2022","8737","sc.coupons","test_addcoupons","Test_addcoupons","","","针对消费金额输入框的测试","
-        针对消费金额输入框的测试
-        :return:
-        "
-"passed","Fri Mar 11 13:36:24 CST 2022","Fri Mar 11 13:36:36 CST 2022","12166","sc.coupons","test_addcoupons","Test_addcoupons","","","针对任务型计数类型的测试","
-        对于达标次数输入框的检查
-        :param name: 规则名称
-        :param num: 达标次数
-        :return:
-        "
-"passed","Fri Mar 11 13:37:15 CST 2022","Fri Mar 11 13:37:27 CST 2022","12233","sc.coupons","test_addcoupons","Test_addcoupons","","","针对任务型计数类型的测试","
-        对于达标次数输入框的检查
-        :param name: 规则名称
-        :param num: 达标次数
-        :return:
-        "
-"broken","Fri Mar 11 13:46:20 CST 2022","Fri Mar 11 13:46:24 CST 2022","3973","sc.goods","test_addgoods","Test_addgoods","","","针对商品标题的测试","
-        针对商品标题的测试(前端未设定商品不可重复)
-        :param name: 商品标题的不同输入
-        :return:
-        "
-"passed","Fri Mar 11 13:46:54 CST 2022","Fri Mar 11 13:47:00 CST 2022","5631","sc.goods","test_addgoods","Test_addgoods","","","针对商品数量的测试","
-        针对价格输入进行测试
-        :return:
-        "
-"passed","Fri Mar 11 13:48:15 CST 2022","Fri Mar 11 13:48:17 CST 2022","1504","sc.goods","test_goodkind","Test_goodkind","","","新增商品分类","
-        新增商品分类的流程测试
-        :return:
-        "
-"passed","Fri Mar 11 13:35:31 CST 2022","Fri Mar 11 13:35:51 CST 2022","19543","sc.coupons","test_addcoupons","Test_addcoupons","","","不同规则类型的流程2",""
-"passed","Fri Mar 11 13:38:20 CST 2022","Fri Mar 11 13:38:27 CST 2022","6875","sc.coupons","test_addcoupons","Test_addcoupons","","","针对达标期限输入框的测试","
-        针对达标期限输入框的测试
-        :return:
-        "
-"passed","Fri Mar 11 13:33:05 CST 2022","Fri Mar 11 13:33:21 CST 2022","16406","sc.coupons","test_addcoupons","Test_addcoupons","","","针对发放规则内容的测试","
+"passed","Wed Mar 16 09:17:06 CST 2022","Wed Mar 16 09:17:23 CST 2022","16839","sc.coupons","test_addcoupons","Test_addcoupons","","","针对发放规则内容的测试","
         针对规则内容的测试
         检验能否提交成功
         :return:
         "
-"passed","Fri Mar 11 13:45:03 CST 2022","Fri Mar 11 13:45:30 CST 2022","27068","sc.coupons","test_coupons","Test_coupons","","","删除规则的流程测试","
-        删除发放规则的测试
-        :return:
-        "
-"passed","Fri Mar 11 13:48:40 CST 2022","Fri Mar 11 13:48:42 CST 2022","2818","sc.goods","test_goodkind","Test_goodkind","","","编辑商品分类","
-        编辑商品分类的流程测试
-        :return:
-        "
-"passed","Fri Mar 11 13:41:30 CST 2022","Fri Mar 11 13:41:54 CST 2022","24096","sc.coupons","test_addcoupons","Test_addcoupons","","","多条规则组的流程测试","
-        检测多条规组的流程测试(前端bug尚未改正)
-        :return:
-        "
-"broken","Fri Mar 11 13:49:18 CST 2022","Fri Mar 11 13:49:30 CST 2022","12361","sc.goods","test_goods","Test_goods","","","删除商品的流程","
-        删除商品的流程测试
-        :return:
-        "
-"broken","Fri Mar 11 13:42:57 CST 2022","Fri Mar 11 13:43:19 CST 2022","21994","sc.coupons","test_coupons","Test_coupons","","","进行中的发放规则能否编辑或者删除","
+"passed","Wed Mar 16 09:27:38 CST 2022","Wed Mar 16 09:28:08 CST 2022","29718","sc.coupons","test_coupons","Test_coupons","","","进行中的发放规则能否编辑或者删除","
         进行中的发放规则能否编辑或者删除
         :return:
         "
-"passed","Fri Mar 11 13:31:08 CST 2022","Fri Mar 11 13:31:23 CST 2022","15383","sc.coupons","test_addcoupons","Test_addcoupons","","","新增规则的流程测试","
-        新增发放规则的流程测试
+"passed","Wed Mar 16 09:26:01 CST 2022","Wed Mar 16 09:26:06 CST 2022","4906","sc.coupons","test_coupons","Test_coupons","","","查询规则的流程测试","
+        查询发放规则的测试
+        查询条件：测试（名称）糖心关爱（店铺）进行中（状态）当前时间-两百年后（发放时间）
         :return:
         "
-"passed","Fri Mar 11 13:47:12 CST 2022","Fri Mar 11 13:47:18 CST 2022","5618","sc.goods","test_addgoods","Test_addgoods","","","针对商品数量的测试","
-        针对价格输入进行测试
-        :return:
-        "
-"passed","Fri Mar 11 13:40:07 CST 2022","Fri Mar 11 13:40:17 CST 2022","9756","sc.coupons","test_addcoupons","Test_addcoupons","","","针对消费金额输入框的测试","
-        针对消费金额输入框的测试
-        :return:
-        "
-"passed","Fri Mar 11 13:40:46 CST 2022","Fri Mar 11 13:41:07 CST 2022","21446","sc.coupons","test_addcoupons","Test_addcoupons","","","多条子规则的流程测试","
+"passed","Wed Mar 16 09:18:57 CST 2022","Wed Mar 16 09:19:25 CST 2022","27636","sc.coupons","test_addcoupons","Test_addcoupons","","","针对发放规则时间的测试",""
+"broken","Wed Mar 16 09:24:51 CST 2022","Wed Mar 16 09:24:57 CST 2022","5430","sc.coupons","test_addcoupons","Test_addcoupons","","","多条子规则的流程测试","
         检测包含多条子规则的流程测试
         :return:
         "
-"passed","Fri Mar 11 13:47:57 CST 2022","Fri Mar 11 13:48:03 CST 2022","5726","sc.goods","test_addgoods","Test_addgoods","","","针对商品数量的测试","
-        针对价格输入进行测试
-        :return:
-        "
-"passed","Fri Mar 11 13:37:49 CST 2022","Fri Mar 11 13:37:56 CST 2022","6755","sc.coupons","test_addcoupons","Test_addcoupons","","","针对达标期限输入框的测试","
-        针对达标期限输入框的测试
-        :return:
-        "
-"passed","Fri Mar 11 13:48:54 CST 2022","Fri Mar 11 13:48:55 CST 2022","740","sc.goods","test_goodkind","Test_goodkind","","","删除商品分类","
-        删除商品分类的流程测试
-        :return:
-        "
-"passed","Fri Mar 11 13:39:04 CST 2022","Fri Mar 11 13:39:13 CST 2022","8698","sc.coupons","test_addcoupons","Test_addcoupons","","","针对消费金额输入框的测试","
-        针对消费金额输入框的测试
-        :return:
-        "
-"passed","Fri Mar 11 13:49:42 CST 2022","Fri Mar 11 13:49:44 CST 2022","2665","sc.picture","test_picture","Test_picture","","","新增图片流程","
-        添加图片的测试用例
-        :return:
-        "
-"passed","Fri Mar 11 13:50:22 CST 2022","Fri Mar 11 13:50:23 CST 2022","940","sc.picture","test_picture","Test_picture","","","通过图片名称查询图片","
-        通过搜索图片名称，进行查询图片的测试用例
+"passed","Wed Mar 16 09:18:17 CST 2022","Wed Mar 16 09:18:43 CST 2022","26008","sc.coupons","test_addcoupons","Test_addcoupons","","","针对发放规则店铺的测试","
+        针对不选择发放规则店铺的测试
+        检验能否提交成功
         :return:
         "

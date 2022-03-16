@@ -1,0 +1,242 @@
+{
+  "uid" : "1a38976c540f56ab",
+  "name" : "删除规则的流程测试",
+  "fullName" : "sc.coupons.test_coupons.Test_coupons#test_deletecoupons",
+  "historyId" : "fe24df1650022360a83bf5ba3faab777",
+  "time" : {
+    "start" : 1646977503202,
+    "stop" : 1646977530270,
+    "duration" : 27068
+  },
+  "description" : "\n        删除发放规则的测试\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    删除发放规则的测试\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_coupons",
+    "time" : {
+      "start" : 1646977494022,
+      "stop" : 1646977503201,
+      "duration" : 9179
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        删除发放规则的测试\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击新增规则按钮",
+      "time" : {
+        "start" : 1646977503202,
+        "stop" : 1646977503913,
+        "duration" : 711
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "填入基本信息",
+      "time" : {
+        "start" : 1646977503913,
+        "stop" : 1646977509118,
+        "duration" : 5205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "填写规则组信息",
+      "time" : {
+        "start" : 1646977509118,
+        "stop" : 1646977519215,
+        "duration" : 10097
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "填写优惠券信息",
+      "time" : {
+        "start" : 1646977519215,
+        "stop" : 1646977520063,
+        "duration" : 848
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "提交",
+      "time" : {
+        "start" : 1646977520063,
+        "stop" : 1646977522441,
+        "duration" : 2378
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击删除按钮",
+      "time" : {
+        "start" : 1646977522441,
+        "stop" : 1646977529151,
+        "duration" : 6710
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "审查删除的结果并截图",
+      "time" : {
+        "start" : 1646977529151,
+        "stop" : 1646977530270,
+        "duration" : 1119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b8fe6015918db323",
+        "name" : "删除结果",
+        "source" : "b8fe6015918db323.png",
+        "type" : "image/png",
+        "size" : 69709
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_coupons::0",
+    "time" : {
+      "start" : 1646977530270,
+      "stop" : 1646977534348,
+      "duration" : 4078
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试结束，关闭浏览器",
+      "time" : {
+        "start" : 1646977530270,
+        "stop" : 1646977534347,
+        "duration" : 4077
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "删除发放规则"
+  }, {
+    "name" : "feature",
+    "value" : "发放规则模块"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=1, reruns_dalay=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.coupons"
+  }, {
+    "name" : "suite",
+    "value" : "test_coupons"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_coupons"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "240-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.coupons.test_coupons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=1, reruns_dalay=2)" ]
+  },
+  "source" : "1a38976c540f56ab.json",
+  "parameterValues" : [ ]
+}

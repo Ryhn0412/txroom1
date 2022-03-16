@@ -1,0 +1,182 @@
+{
+  "uid" : "ef7893b6973dee53",
+  "name" : "通过图片名称查询图片",
+  "fullName" : "sc.picture.test_picture.Test_picture#test_searchpicture2",
+  "historyId" : "d1737da3083ef0454f458134b05e8c1d",
+  "time" : {
+    "start" : 1646977822254,
+    "stop" : 1646977823194,
+    "duration" : 940
+  },
+  "description" : "\n        通过搜索图片名称，进行查询图片的测试用例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    通过搜索图片名称，进行查询图片的测试用例\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_picture",
+    "time" : {
+      "start" : 1646977813822,
+      "stop" : 1646977822254,
+      "duration" : 8432
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        通过搜索图片名称，进行查询图片的测试用例\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击搜索图片名称框",
+      "time" : {
+        "start" : 1646977822254,
+        "stop" : 1646977823023,
+        "duration" : 769
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击查询按钮",
+      "time" : {
+        "start" : 1646977823024,
+        "stop" : 1646977823082,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "审查查找结果",
+      "time" : {
+        "start" : 1646977823082,
+        "stop" : 1646977823194,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cbad60a9f9af232",
+        "name" : "查找图片结果",
+        "source" : "cbad60a9f9af232.png",
+        "type" : "image/png",
+        "size" : 38813
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_picture::0",
+    "time" : {
+      "start" : 1646977823194,
+      "stop" : 1646977827285,
+      "duration" : 4091
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试结束，关闭浏览器",
+      "time" : {
+        "start" : 1646977823194,
+        "stop" : 1646977827285,
+        "duration" : 4091
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "查询图片功能"
+  }, {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "图片库模块"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=1, reruns_delay=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.picture"
+  }, {
+    "name" : "suite",
+    "value" : "test_picture"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_picture"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "240-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.picture.test_picture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=1, reruns_delay=1)" ]
+  },
+  "source" : "ef7893b6973dee53.json",
+  "parameterValues" : [ ]
+}

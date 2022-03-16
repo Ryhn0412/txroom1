@@ -1,0 +1,206 @@
+{
+  "uid" : "64fbd75e8804d5e4",
+  "name" : "针对商品标题的测试",
+  "fullName" : "sc.goods.test_addgoods.Test_addgoods#test_goodstitle",
+  "historyId" : "13451b929b954550b0687f93f92e1bbf",
+  "time" : {
+    "start" : 1646969094751,
+    "stop" : 1646969100352,
+    "duration" : 5601
+  },
+  "description" : "\n        针对商品标题的测试(前端未设定商品不可重复)\n        :param name: 商品标题的不同输入\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    针对商品标题的测试(前端未设定商品不可重复)\n    :param name: 商品标题的不同输入\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addgoods",
+    "time" : {
+      "start" : 1646969084945,
+      "stop" : 1646969094750,
+      "duration" : 9805
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        针对商品标题的测试(前端未设定商品不可重复)\n        :param name: 商品标题的不同输入\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击新增商品按钮",
+      "time" : {
+        "start" : 1646969094751,
+        "stop" : 1646969095112,
+        "duration" : 361
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "填入基本信息",
+      "time" : {
+        "start" : 1646969095112,
+        "stop" : 1646969098626,
+        "duration" : 3514
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "填写销售信息",
+      "time" : {
+        "start" : 1646969098626,
+        "stop" : 1646969099046,
+        "duration" : 420
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "填写商品详情",
+      "time" : {
+        "start" : 1646969099046,
+        "stop" : 1646969099256,
+        "duration" : 210
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击提交按钮",
+      "time" : {
+        "start" : 1646969099256,
+        "stop" : 1646969100335,
+        "duration" : 1079
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "审查是否提交失败",
+      "time" : {
+        "start" : 1646969100335,
+        "stop" : 1646969100352,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 6,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addgoods::0",
+    "time" : {
+      "start" : 1646969100353,
+      "stop" : 1646969103443,
+      "duration" : 3090
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "商品模块"
+  }, {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "新增商品功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.goods"
+  }, {
+    "name" : "suite",
+    "value" : "test_addgoods"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_addgoods"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "12812-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.goods.test_addgoods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "name",
+    "value" : "'自动化商品'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "64fbd75e8804d5e4.json",
+  "parameterValues" : [ "'自动化商品'" ]
+}

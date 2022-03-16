@@ -1,0 +1,284 @@
+{
+  "uid" : "6b3567c0cda62da2",
+  "name" : "查询规则的流程测试",
+  "fullName" : "sc.coupons.test_coupons.Test_coupons#test_selectcoupon",
+  "historyId" : "c645683a9a2ca64f60f19300c50d075c",
+  "time" : {
+    "start" : 1647393961774,
+    "stop" : 1647393966680,
+    "duration" : 4906
+  },
+  "description" : "\n        查询发放规则的测试\n        查询条件：测试（名称）糖心关爱（店铺）进行中（状态）当前时间-两百年后（发放时间）\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    查询发放规则的测试\n    查询条件：测试（名称）糖心关爱（店铺）进行中（状态）当前时间-两百年后（发放时间）\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_coupons",
+    "time" : {
+      "start" : 1647393952948,
+      "stop" : 1647393961774,
+      "duration" : 8826
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        查询发放规则的测试\n        查询条件：测试（名称）糖心关爱（店铺）进行中（状态）当前时间-两百年后（发放时间）\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "输入查询的规则名称",
+      "time" : {
+        "start" : 1647393961775,
+        "stop" : 1647393962543,
+        "duration" : 768
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入查询的店铺名称",
+      "time" : {
+        "start" : 1647393962543,
+        "stop" : 1647393962641,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击查询按钮",
+      "time" : {
+        "start" : 1647393962641,
+        "stop" : 1647393963366,
+        "duration" : 725
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "断言查询结果,并截图",
+      "time" : {
+        "start" : 1647393963366,
+        "stop" : 1647393965606,
+        "duration" : 2240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "47ffc68f4114b56e",
+        "name" : "查询结果",
+        "source" : "47ffc68f4114b56e.png",
+        "type" : "image/png",
+        "size" : 142652
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "恢复列表",
+      "time" : {
+        "start" : 1647393965606,
+        "stop" : 1647393966680,
+        "duration" : 1074
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_coupons::0",
+    "time" : {
+      "start" : 1647393966680,
+      "stop" : 1647393970757,
+      "duration" : 4077
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试结束，关闭浏览器",
+      "time" : {
+        "start" : 1647393966680,
+        "stop" : 1647393970756,
+        "duration" : 4076
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "发放规则模块"
+  }, {
+    "name" : "story",
+    "value" : "查询发放规则"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=1, reruns_dalay=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.coupons"
+  }, {
+    "name" : "suite",
+    "value" : "test_coupons"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_coupons"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "3460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.coupons.test_coupons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "47a89ccb91c46d76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646977326274,
+        "stop" : 1646977331043,
+        "duration" : 4769
+      }
+    }, {
+      "uid" : "daedf2ea664bee3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971629801,
+        "stop" : 1646971634485,
+        "duration" : 4684
+      }
+    }, {
+      "uid" : "810149d304f9fc3f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968849370,
+        "stop" : 1646968854006,
+        "duration" : 4636
+      }
+    }, {
+      "uid" : "dd2f5f72b5b2deb2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966191422,
+        "stop" : 1646966196098,
+        "duration" : 4676
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "c4592b996d154592",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/c4592b996d154592",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646971629801,
+          "stop" : 1646971634485,
+          "duration" : 4684
+        }
+      }, {
+        "uid" : "e876033423b163fa",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/e876033423b163fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646968849370,
+          "stop" : 1646968854006,
+          "duration" : 4636
+        }
+      }, {
+        "uid" : "7c1357888ff63012",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/7c1357888ff63012",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646966191422,
+          "stop" : 1646966196098,
+          "duration" : 4676
+        }
+      } ]
+    },
+    "tags" : [ "flaky(reruns=1, reruns_dalay=2)" ]
+  },
+  "source" : "6b3567c0cda62da2.json",
+  "parameterValues" : [ ]
+}

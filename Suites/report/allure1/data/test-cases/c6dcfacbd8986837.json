@@ -1,0 +1,259 @@
+{
+  "uid" : "c6dcfacbd8986837",
+  "name" : "针对任务型计数类型的测试",
+  "fullName" : "sc.coupons.test_addcoupons.Test_addcoupons#test_guize3",
+  "historyId" : "9f40498708d57420893729fdcad8d904",
+  "time" : {
+    "start" : 1647393690703,
+    "stop" : 1647393702928,
+    "duration" : 12225
+  },
+  "description" : "\n        对于达标次数输入框的检查\n        :param name: 规则名称\n        :param num: 达标次数\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    对于达标次数输入框的检查\n    :param name: 规则名称\n    :param num: 达标次数\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addcoupons",
+    "time" : {
+      "start" : 1647393660531,
+      "stop" : 1647393690702,
+      "duration" : 30171
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        对于达标次数输入框的检查\n        :param name: 规则名称\n        :param num: 达标次数\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "填写必要内容",
+      "time" : {
+        "start" : 1647393690703,
+        "stop" : 1647393696532,
+        "duration" : 5829
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "对于达标测试进行测试",
+      "time" : {
+        "start" : 1647393696532,
+        "stop" : 1647393702746,
+        "duration" : 6214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "审查是否提交成功",
+      "time" : {
+        "start" : 1647393702746,
+        "stop" : 1647393702928,
+        "duration" : 182
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "461fc0c831809b73",
+        "name" : "审查结果",
+        "source" : "461fc0c831809b73.png",
+        "type" : "image/png",
+        "size" : 78741
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addcoupons::0",
+    "time" : {
+      "start" : 1647393702929,
+      "stop" : 1647393707039,
+      "duration" : 4110
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试结束，关闭浏览器",
+      "time" : {
+        "start" : 1647393702929,
+        "stop" : 1647393707038,
+        "duration" : 4109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "feature",
+    "value" : "发放规则模块"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "新增发放规则"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.coupons"
+  }, {
+    "name" : "suite",
+    "value" : "test_addcoupons"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_addcoupons"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "3460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.coupons.test_addcoupons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "name",
+    "value" : "'自动化测试类型5'"
+  }, {
+    "name" : "num",
+    "value" : "'++'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b9766a61a8196093",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646977009813,
+        "stop" : 1646977021953,
+        "duration" : 12140
+      }
+    }, {
+      "uid" : "b46fa96f913ee979",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646971338660,
+        "stop" : 1646971350765,
+        "duration" : 12105
+      }
+    }, {
+      "uid" : "a31f73e36914fed2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646968612228,
+        "stop" : 1646968624375,
+        "duration" : 12147
+      }
+    }, {
+      "uid" : "1f3ff3dec5e0ffc4",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"el-tabs el-tabs--card el-tabs--top\"]/div[2]/div/form/div/div/div/div/input\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+      "time" : {
+        "start" : 1646965874678,
+        "stop" : 1646965886798,
+        "duration" : 12120
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "1473cacb74734c5b",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/1473cacb74734c5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646971338660,
+          "stop" : 1646971350765,
+          "duration" : 12105
+        }
+      }, {
+        "uid" : "b16443fee1bfe5c5",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/b16443fee1bfe5c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646968612228,
+          "stop" : 1646968624375,
+          "duration" : 12147
+        }
+      }, {
+        "uid" : "396e9c35b22701f9",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/396e9c35b22701f9",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@class=\"el-tabs el-tabs--card el-tabs--top\"]/div[2]/div/form/div/div/div/div/input\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]",
+        "time" : {
+          "start" : 1646965874678,
+          "stop" : 1646965886798,
+          "duration" : 12120
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c6dcfacbd8986837.json",
+  "parameterValues" : [ "'自动化测试类型5'", "'++'" ]
+}

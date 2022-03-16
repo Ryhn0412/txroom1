@@ -1,0 +1,199 @@
+{
+  "uid" : "37c403116a249517",
+  "name" : "针对发放规则店铺的测试",
+  "fullName" : "sc.coupons.test_addcoupons.Test_addcoupons#test_couponroom",
+  "historyId" : "0025c573c73ce3fc5328dfaf0e7102cb",
+  "time" : {
+    "start" : 1646976815144,
+    "stop" : 1646976840730,
+    "duration" : 25586
+  },
+  "description" : "\n        针对不选择发放规则店铺的测试\n        检验能否提交成功\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    针对不选择发放规则店铺的测试\n    检验能否提交成功\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addcoupons",
+    "time" : {
+      "start" : 1646976806075,
+      "stop" : 1646976815144,
+      "duration" : 9069
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        针对不选择发放规则店铺的测试\n        检验能否提交成功\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "填写必要内容",
+      "time" : {
+        "start" : 1646976815144,
+        "stop" : 1646976820121,
+        "duration" : 4977
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "填写规则组信息",
+      "time" : {
+        "start" : 1646976820121,
+        "stop" : 1646976839549,
+        "duration" : 19428
+      },
+      "status" : "broken",
+      "statusMessage" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@aria-label=\"选择商品\"]/div[2]/div/div[3]/table/tbody/tr[1]/td[1]\"}\n  (Session info: chrome=97.0.4692.71)\nStacktrace:\nBacktrace:\n\tOrdinal0 [0x0069FDC3+2555331]\n\tOrdinal0 [0x006377F1+2127857]\n\tOrdinal0 [0x00532E08+1060360]\n\tOrdinal0 [0x0055E49E+1238174]\n\tOrdinal0 [0x0055E69B+1238683]\n\tOrdinal0 [0x00589252+1413714]\n\tOrdinal0 [0x00577B54+1342292]\n\tOrdinal0 [0x005875FA+1406458]\n\tOrdinal0 [0x00577976+1341814]\n\tOrdinal0 [0x005536B6+1193654]\n\tOrdinal0 [0x00554546+1197382]\n\tGetHandleVerifier [0x00839622+1619522]\n\tGetHandleVerifier [0x008E882C+2336844]\n\tGetHandleVerifier [0x007323E1+541697]\n\tGetHandleVerifier [0x00731443+537699]\n\tOrdinal0 [0x0063D18E+2150798]\n\tOrdinal0 [0x00641518+2168088]\n\tOrdinal0 [0x00641660+2168416]\n\tOrdinal0 [0x0064B330+2208560]\n\tBaseThreadInitThunk [0x75D5FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x76F47A4E+238]\n\n",
+      "statusTrace" : "  File \"F:\\room\\tx\\Suites\\sc\\coupons\\test_addcoupons.py\", line 345, in test_couponroom\n    self.click('//div[@aria-label=\"选择商品\"]/div[2]/div/div[3]/table/tbody/tr[1]/td[1]')\n  File \"F:\\room\\tx\\txhoutai\\webkeys1.py\", line 48, in click\n    self.driver.find_element(By.XPATH, locator).click()\n  File \"C:\\Program Files\\Python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 1248, in find_element\n    return self.execute(Command.FIND_ELEMENT, {\n  File \"C:\\Program Files\\Python38\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py\", line 425, in execute\n    self.error_handler.check_response(response)\n  File \"C:\\Program Files\\Python38\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py\", line 247, in check_response\n    raise exception_class(message, screen, stacktrace)\n",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "提交",
+      "time" : {
+        "start" : 1646976839550,
+        "stop" : 1646976840641,
+        "duration" : 1091
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "审查是否提交失败",
+      "time" : {
+        "start" : 1646976840642,
+        "stop" : 1646976840730,
+        "duration" : 88
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e41e7d05ae71471d",
+        "name" : "审查结果",
+        "source" : "e41e7d05ae71471d.png",
+        "type" : "image/png",
+        "size" : 46354
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_addcoupons::0",
+    "time" : {
+      "start" : 1646976840730,
+      "stop" : 1646976844844,
+      "duration" : 4114
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试结束，关闭浏览器",
+      "time" : {
+        "start" : 1646976840730,
+        "stop" : 1646976844844,
+        "duration" : 4114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "story",
+    "value" : "新增发放规则"
+  }, {
+    "name" : "feature",
+    "value" : "发放规则模块"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=1, reruns_delay=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.coupons"
+  }, {
+    "name" : "suite",
+    "value" : "test_addcoupons"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_addcoupons"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "240-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.coupons.test_addcoupons"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "flaky(reruns=1, reruns_delay=1)" ]
+  },
+  "source" : "37c403116a249517.json",
+  "parameterValues" : [ ]
+}

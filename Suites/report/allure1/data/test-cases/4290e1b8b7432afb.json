@@ -1,0 +1,293 @@
+{
+  "uid" : "4290e1b8b7432afb",
+  "name" : "新增图片流程",
+  "fullName" : "sc.picture.test_picture.Test_picture#test_addpicture",
+  "historyId" : "d02c75b8e52a1c17afa55a69105d6976",
+  "time" : {
+    "start" : 1647394460902,
+    "stop" : 1647394463727,
+    "duration" : 2825
+  },
+  "description" : "\n        添加图片的测试用例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    添加图片的测试用例\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 5,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_picture",
+    "time" : {
+      "start" : 1647394452464,
+      "stop" : 1647394460901,
+      "duration" : 8437
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        添加图片的测试用例\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击新增图片按钮",
+      "time" : {
+        "start" : 1647394460902,
+        "stop" : 1647394461546,
+        "duration" : 644
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击图片分类选项",
+      "time" : {
+        "start" : 1647394461546,
+        "stop" : 1647394461815,
+        "duration" : 269
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "上传图片",
+      "time" : {
+        "start" : 1647394461815,
+        "stop" : 1647394462865,
+        "duration" : 1050
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击提交按钮",
+      "time" : {
+        "start" : 1647394462865,
+        "stop" : 1647394463497,
+        "duration" : 632
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "审查是否出现新增图片",
+      "time" : {
+        "start" : 1647394463497,
+        "stop" : 1647394463727,
+        "duration" : 230
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ea10ed6fcd8a96c",
+        "name" : "新增图片",
+        "source" : "5ea10ed6fcd8a96c.png",
+        "type" : "image/png",
+        "size" : 153025
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 5,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_picture::0",
+    "time" : {
+      "start" : 1647394463728,
+      "stop" : 1647394467836,
+      "duration" : 4108
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试结束，关闭浏览器",
+      "time" : {
+        "start" : 1647394463728,
+        "stop" : 1647394467836,
+        "duration" : 4108
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "新增图片功能"
+  }, {
+    "name" : "feature",
+    "value" : "图片库模块"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=5, reruns_delay=2)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.picture"
+  }, {
+    "name" : "suite",
+    "value" : "test_picture"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_picture"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "3460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.picture.test_picture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "3858a58e5479fc27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646977782094,
+        "stop" : 1646977784759,
+        "duration" : 2665
+      }
+    }, {
+      "uid" : "ec684c89ccda246b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972162164,
+        "stop" : 1646972164763,
+        "duration" : 2599
+      }
+    }, {
+      "uid" : "b0021a1c95c34b44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969361894,
+        "stop" : 1646969364522,
+        "duration" : 2628
+      }
+    }, {
+      "uid" : "ab768d53b58b85dd",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '自动化商品' == 'ocr'\n  - ocr\n  + 自动化商品",
+      "time" : {
+        "start" : 1646969344547,
+        "stop" : 1646969347192,
+        "duration" : 2645
+      }
+    }, {
+      "uid" : "8d08251eb214a85c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966681700,
+        "stop" : 1646966684324,
+        "duration" : 2624
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "56378d3e03f0c72c",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/56378d3e03f0c72c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646972162164,
+          "stop" : 1646972164763,
+          "duration" : 2599
+        }
+      }, {
+        "uid" : "c60945bdd3f7390",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/c60945bdd3f7390",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646969361894,
+          "stop" : 1646969364522,
+          "duration" : 2628
+        }
+      }, {
+        "uid" : "4ca8dcfa80813228",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/4ca8dcfa80813228",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646966681700,
+          "stop" : 1646966684324,
+          "duration" : 2624
+        }
+      } ]
+    },
+    "tags" : [ "flaky(reruns=5, reruns_delay=2)" ]
+  },
+  "source" : "4290e1b8b7432afb.json",
+  "parameterValues" : [ ]
+}

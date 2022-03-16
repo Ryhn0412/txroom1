@@ -1,0 +1,199 @@
+{
+  "uid" : "c2832c870d24bd30",
+  "name" : "查找订单功能1",
+  "fullName" : "sc.buys.test_buys.Test_buys#test_selectbuys",
+  "historyId" : "ddae98945003aa1cd03503803fa4838b",
+  "time" : {
+    "start" : 1647393219580,
+    "stop" : 1647393243582,
+    "duration" : 24002
+  },
+  "description" : "\n        主要测试订单管理模块的查找功能实现\n        ",
+  "descriptionHtml" : "<pre><code>    主要测试订单管理模块的查找功能实现\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        主要测试订单管理模块的查找功能实现\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "初始化页面",
+      "time" : {
+        "start" : 1647393219580,
+        "stop" : 1647393231480,
+        "duration" : 11900
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "选择搜索条件为商品名称",
+      "time" : {
+        "start" : 1647393231480,
+        "stop" : 1647393233068,
+        "duration" : 1588
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "输入搜索内容",
+      "time" : {
+        "start" : 1647393233068,
+        "stop" : 1647393233148,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击查询按钮",
+      "time" : {
+        "start" : 1647393233148,
+        "stop" : 1647393235217,
+        "duration" : 2069
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "审查查询结果",
+      "time" : {
+        "start" : 1647393235217,
+        "stop" : 1647393237388,
+        "duration" : 2171
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "675ee757208d002a",
+        "name" : "实际结果",
+        "source" : "675ee757208d002a.png",
+        "type" : "image/png",
+        "size" : 142400
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "点击重置按钮并查询",
+      "time" : {
+        "start" : 1647393237388,
+        "stop" : 1647393237473,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "退出浏览器",
+      "time" : {
+        "start" : 1647393237473,
+        "stop" : 1647393243582,
+        "duration" : 6109
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 7,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "商品订单模块"
+  }, {
+    "name" : "story",
+    "value" : "订单管理功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.buys"
+  }, {
+    "name" : "suite",
+    "value" : "test_buys"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_buys"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "3460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.buys.test_buys"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "caseinfo",
+    "value" : "{'idea_select': '商品名称', 'select_text': '试纸'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c2832c870d24bd30.json",
+  "parameterValues" : [ "{'idea_select': '商品名称', 'select_text': '试纸'}" ]
+}

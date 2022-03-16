@@ -1,0 +1,260 @@
+{
+  "uid" : "ffdcca443f16e05a",
+  "name" : "编辑图片流程",
+  "fullName" : "sc.picture.test_picture.Test_picture#test_changepicture",
+  "historyId" : "6eb11b90d26ec0412a50e342268f1c3c",
+  "time" : {
+    "start" : 1647394516427,
+    "stop" : 1647394519948,
+    "duration" : 3521
+  },
+  "description" : "\n        编辑图片的测试用例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    编辑图片的测试用例\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_picture",
+    "time" : {
+      "start" : 1647394509027,
+      "stop" : 1647394516427,
+      "duration" : 7400
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        编辑图片的测试用例\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击图片编辑按钮",
+      "time" : {
+        "start" : 1647394516427,
+        "stop" : 1647394517508,
+        "duration" : 1081
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "修改图片名称",
+      "time" : {
+        "start" : 1647394517508,
+        "stop" : 1647394518877,
+        "duration" : 1369
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击提交按钮",
+      "time" : {
+        "start" : 1647394518877,
+        "stop" : 1647394518923,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "审查修改结果",
+      "time" : {
+        "start" : 1647394518923,
+        "stop" : 1647394519948,
+        "duration" : 1025
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 4,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_picture::0",
+    "time" : {
+      "start" : 1647394519949,
+      "stop" : 1647394524064,
+      "duration" : 4115
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试结束，关闭浏览器",
+      "time" : {
+        "start" : 1647394519949,
+        "stop" : 1647394524064,
+        "duration" : 4115
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "feature",
+    "value" : "图片库模块"
+  }, {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "story",
+    "value" : "编辑图片功能"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.picture"
+  }, {
+    "name" : "suite",
+    "value" : "test_picture"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_picture"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "3460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.picture.test_picture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "ebd50932790cd568",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646977869155,
+        "stop" : 1646977872691,
+        "duration" : 3536
+      }
+    }, {
+      "uid" : "68e5cb053eb6b09b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972228478,
+        "stop" : 1646972231947,
+        "duration" : 3469
+      }
+    }, {
+      "uid" : "40d6eeb6d2276dfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969428088,
+        "stop" : 1646969431602,
+        "duration" : 3514
+      }
+    }, {
+      "uid" : "8078c94c80347fd4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966737213,
+        "stop" : 1646966740736,
+        "duration" : 3523
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "e926d9d1cb0e858",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/e926d9d1cb0e858",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646972228478,
+          "stop" : 1646972231947,
+          "duration" : 3469
+        }
+      }, {
+        "uid" : "c2b2d3d8539ca003",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/c2b2d3d8539ca003",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646969428088,
+          "stop" : 1646969431602,
+          "duration" : 3514
+        }
+      }, {
+        "uid" : "4513973407229e1f",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/4513973407229e1f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646966737213,
+          "stop" : 1646966740736,
+          "duration" : 3523
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "ffdcca443f16e05a.json",
+  "parameterValues" : [ ]
+}

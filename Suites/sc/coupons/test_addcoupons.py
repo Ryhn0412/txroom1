@@ -726,10 +726,8 @@ class Test_addcoupons(select1):
                     break
         with allure.step('填写新建子规则的商品内容'):
             # 选择消费金额规则类型
-            list3 = self.driver.find_elements(By.TAG_NAME, 'input')
-            for element4 in list3:
-                if element4.get_attribute("placeholder") == '请选择规则类型':
-                    ActionChains(self.driver).move_to_element(element4).click(element4).perform()
+            time.sleep(1)
+            self.click('//*[@id="pane-1"]/form/div[1]/div/div/div[1]/input')
             time.sleep(2)
             list1 = self.driver.find_elements(By.TAG_NAME, 'span')
             for element2 in list1:
@@ -767,7 +765,7 @@ class Test_addcoupons(select1):
     @allure.severity(allure.severity_level.NORMAL)
     def test_guize7(self):
         '''
-        检测多条规组的流程测试(前端bug尚未改正)
+        检测多条规组的流程测试
         :return:
         '''
         with allure.step("填入基本信息"):
@@ -786,22 +784,18 @@ class Test_addcoupons(select1):
             ActionChains(self.driver).move_to_element(element3).click().perform()
         with allure.step('填写新增规则组内容'):
             element1 = self.find(
-                '//*[@id="pane-0"]/form/div[1]/div/div/div[1]/input')
+                '//div[@class="edit-rules"]/div[3]/div[2]/div[2]/div[2]/div[1]/form[1]/div[1]/div[1]/div[1]/div[1]/input')
             ActionChains(self.driver).move_to_element(element1).click(element1).perform()
             time.sleep(2)
             list1 = self.driver.find_elements(By.TAG_NAME, 'span')
             for element2 in list1:
-                if element2.text == '购买商品':
+                if element2.text == '消费金额达标':
                     ActionChains(self.driver).move_to_element(element2).click().perform()
                     break
-            # 选择商品
-            time.sleep(3)
-            element3 = self.driver.find_element(By.XPATH, '//*[@id="pane-0"]/form/div[2]/div/button/span')
-            self.driver.execute_script("arguments[0].click();", element3)
+            # 输入达标金额
             time.sleep(2)
-            self.click('//div[@aria-label="选择商品"]/div[2]/div/div[3]/table/tbody/tr[1]/td[1]')
-            # 点击商品的提交按钮
-            self.click('//div[@aria-label="选择商品"]/div[3]/div/div/div/button[2]')
+            self.click('//*[@id="pane-0"]/form/div[4]/div/div/input')
+            self.input('//*[@id="pane-0"]/form/div[4]/div/div/input', '11')
         with allure.step('点击提交按钮'):
             time.sleep(1)
             self.tagclick('span', '保存')

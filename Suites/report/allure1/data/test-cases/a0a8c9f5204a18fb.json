@@ -1,0 +1,254 @@
+{
+  "uid" : "a0a8c9f5204a18fb",
+  "name" : "通过图片分类查找图片",
+  "fullName" : "sc.picture.test_picture.Test_picture#test_searchpicture3",
+  "historyId" : "0071bd94720a738f34f8dafa9aeb9462",
+  "time" : {
+    "start" : 1647394503410,
+    "stop" : 1647394504457,
+    "duration" : 1047
+  },
+  "description" : "\n        通过图片分类，进行查询图片的测试用例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    通过图片分类，进行查询图片的测试用例\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_picture",
+    "time" : {
+      "start" : 1647394494803,
+      "stop" : 1647394503410,
+      "duration" : 8607
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        通过图片分类，进行查询图片的测试用例\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "点击图片分类",
+      "time" : {
+        "start" : 1647394503410,
+        "stop" : 1647394504134,
+        "duration" : 724
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "点击查询按钮",
+      "time" : {
+        "start" : 1647394504134,
+        "stop" : 1647394504179,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "审查查找结果",
+      "time" : {
+        "start" : 1647394504179,
+        "stop" : 1647394504457,
+        "duration" : 278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "beebb34e2d4a4ea",
+        "name" : "查找图片结果",
+        "source" : "beebb34e2d4a4ea.png",
+        "type" : "image/png",
+        "size" : 70826
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 3,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "_xunit_setup_method_fixture_Test_picture::0",
+    "time" : {
+      "start" : 1647394504458,
+      "stop" : 1647394509024,
+      "duration" : 4566
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "测试结束，关闭浏览器",
+      "time" : {
+        "start" : 1647394504458,
+        "stop" : 1647394509024,
+        "duration" : 4566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "查询图片功能"
+  }, {
+    "name" : "epic",
+    "value" : "后台商城系统"
+  }, {
+    "name" : "feature",
+    "value" : "图片库模块"
+  }, {
+    "name" : "tag",
+    "value" : "flaky(reruns=1, reruns_delay=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "sc.picture"
+  }, {
+    "name" : "suite",
+    "value" : "test_picture"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_picture"
+  }, {
+    "name" : "host",
+    "value" : "WIN-UJCKUL337GH"
+  }, {
+    "name" : "thread",
+    "value" : "3460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "sc.picture.test_picture"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "7c76f56337dc6b25",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646977856343,
+        "stop" : 1646977857319,
+        "duration" : 976
+      }
+    }, {
+      "uid" : "4222e3948f55b3a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646972215694,
+        "stop" : 1646972216661,
+        "duration" : 967
+      }
+    }, {
+      "uid" : "6937e2ad3eac2c0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646969414823,
+        "stop" : 1646969415770,
+        "duration" : 947
+      }
+    }, {
+      "uid" : "a933197f34bc0ca3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1646966723565,
+        "stop" : 1646966724518,
+        "duration" : 953
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "92448f9866727c05",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/69/allure/#testresult/92448f9866727c05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646972215694,
+          "stop" : 1646972216661,
+          "duration" : 967
+        }
+      }, {
+        "uid" : "5f51fb8b5a55bf3c",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/68/allure/#testresult/5f51fb8b5a55bf3c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646969414823,
+          "stop" : 1646969415770,
+          "duration" : 947
+        }
+      }, {
+        "uid" : "2581c2bbeed35519",
+        "reportUrl" : "http://localhost:8110/job/web%E8%87%AA%E5%8A%A8%E5%8C%96%E2%80%94%E2%80%94%E7%B3%96%E5%BF%83%E5%90%8E%E5%8F%B0%E7%B3%BB%E7%BB%9F/67/allure/#testresult/2581c2bbeed35519",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646966723565,
+          "stop" : 1646966724518,
+          "duration" : 953
+        }
+      } ]
+    },
+    "tags" : [ "flaky(reruns=1, reruns_delay=1)" ]
+  },
+  "source" : "a0a8c9f5204a18fb.json",
+  "parameterValues" : [ ]
+}

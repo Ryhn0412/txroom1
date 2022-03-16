@@ -1,0 +1,12 @@
+- buff_name: 待付款
+- buff_name: 支付中
+- buff_name: 待配送
+- buff_name: 配送中
+- buff_name: 待提货
+- buff_name: 待使用
+- buff_name: 待评价
+- buff_name: 已完成
+- buff_name: 已取消
+- buff_name: 退款中
+- buff_name: 已退款
+- buff_name: 已删除

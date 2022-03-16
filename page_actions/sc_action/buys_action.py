@@ -124,3 +124,23 @@ class buys_action(select1):
         with allure.step('退出浏览器'):
             time.sleep(2)
             self.quit1()
+
+    def buys_buff(self, buff_name):
+        '''
+        点击订单管理界面的各状态切换卡
+        :return: 
+        '''
+        with allure.step('初始化页面'):
+            self.setup()
+        with allure.step('点击订单状态切换卡'):
+            time.sleep(2)
+            a = self.getText(self.buys_text)
+            self.tagclick('div', buff_name)
+        with allure.step('审查实际情况'):
+            time.sleep(1)
+            b = self.getText(self.buys_text)
+            assert a != b
+            self.catch_png()
+        with allure.step('退出浏览器'):
+            time.sleep(1)
+            self.quit1()
